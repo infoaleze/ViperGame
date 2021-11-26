@@ -1,0 +1,42 @@
+Protocole Client => Serveur
+===========================
+
+N:<Pseudo>
+    Indique aux serveur la création d'un nouveau joueur avec le <Pseudo>
+
+T: 'P' | 'V' | 'R'
+    Indique au serveur le type de joueur : P => Poule, V=> Vipère, R=> Renard
+
+X:<Val> 
+Y:<Val>
+    Informe d'un déplacement du joueur en X ou Y
+    La donnée <Val> peut être comprise entre -50 et 50
+
+L:[<id>]
+    Retourne le détail d'un joueur
+
+
+Protocole Serveur => Client
+===========================
+
+<IdJoueur>:<Instruction>:[<P1>[<Pn>]...]
+
+ND:
+<id>:ND:<Name>:<Type>:<X>:<Y>:<Score>
+    Information de détail d'un joueur
+    <Name>:Pseudo du joueur
+    <Type> = P,V, Renard
+    <X>, <Y> : Position
+    <Score> = Score
+
+N:
+<id>:N:<Type>:<X>:<Y>
+    Information sur un joueur qui vient d'être créer.
+    Type = P,V,R
+    X,Y sa position initiale
+
+POS:
+<id>:POS:<X>:<Y>
+    Informe d'un déplacmeent du joueur, nouvelle position <X>,<Y>
+
+
