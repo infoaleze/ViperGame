@@ -1,0 +1,598 @@
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_contentPack.xsd">
+	<Header action="write" externalSource="NIKU" objectType="contentPack" version="16.0.0.890"/>
+	<contentPack update="true">
+		<portlets update="true">
+			<gridPortlet allowConfigure="true" allowConfigureLabel="true" allowEditing="false" category="businessIntelligence" code="CP_COP_PLANCHARGEMENSUELLES" dataProviderId="CQ_COP_PLANCHARGEMENSUELLES" dataProviderPartitionId="NIKU.ROOT" dataProviderType="nsql" defaultSortColumn="code_projet" defaultSortOrder="ascending" forceFilter="false" gridAttributeProtection="0" hasEditableColumn="false" metricsLocation="bottom" objectType="SYSTEM" querySource="customer" secondSortColumn="code_resource" secondSortOrder="ascending" showAltValueText="false" showColumnCurrencyCode="false" source="customer" thirdSortColumn="debut" thirdSortOrder="ascending">
+				<nls languageCode="de" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="no" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="fi" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="ru" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="sv" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="ko" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="pt" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="en" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="it" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="fr" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="hu" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="es" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="zh" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="cs" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="zh_TW" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="ja" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="pl" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="da" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="ca" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="nl" name="CP_COP_PlanChargeMensuelles"/>
+				<nls languageCode="tr" name="CP_COP_PlanChargeMensuelles"/>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="code_projet" isEditable="false" position="1" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="code_projet"/>
+					<nls languageCode="de" name="code_projet"/>
+					<nls languageCode="sv" name="code_projet"/>
+					<nls languageCode="ru" name="code_projet"/>
+					<nls languageCode="fi" name="code_projet"/>
+					<nls languageCode="pt" name="code_projet"/>
+					<nls languageCode="ko" name="code_projet"/>
+					<nls languageCode="en" name="code_projet"/>
+					<nls languageCode="it" name="code_projet"/>
+					<nls languageCode="fr" name="code_projet"/>
+					<nls languageCode="hu" name="code_projet"/>
+					<nls languageCode="zh" name="code_projet"/>
+					<nls languageCode="es" name="code_projet"/>
+					<nls languageCode="cs" name="code_projet"/>
+					<nls languageCode="zh_TW" name="code_projet"/>
+					<nls languageCode="ja" name="code_projet"/>
+					<nls languageCode="pl" name="code_projet"/>
+					<nls languageCode="da" name="code_projet"/>
+					<nls languageCode="tr" name="code_projet"/>
+					<nls languageCode="nl" name="code_projet"/>
+					<nls languageCode="ca" name="code_projet"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="code_resource" isEditable="false" position="2" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="code_resource"/>
+					<nls languageCode="de" name="code_resource"/>
+					<nls languageCode="sv" name="code_resource"/>
+					<nls languageCode="ru" name="code_resource"/>
+					<nls languageCode="fi" name="code_resource"/>
+					<nls languageCode="pt" name="code_resource"/>
+					<nls languageCode="ko" name="code_resource"/>
+					<nls languageCode="en" name="code_resource"/>
+					<nls languageCode="it" name="code_resource"/>
+					<nls languageCode="fr" name="code_resource"/>
+					<nls languageCode="hu" name="code_resource"/>
+					<nls languageCode="zh" name="code_resource"/>
+					<nls languageCode="es" name="code_resource"/>
+					<nls languageCode="cs" name="code_resource"/>
+					<nls languageCode="zh_TW" name="code_resource"/>
+					<nls languageCode="ja" name="code_resource"/>
+					<nls languageCode="pl" name="code_resource"/>
+					<nls languageCode="da" name="code_resource"/>
+					<nls languageCode="tr" name="code_resource"/>
+					<nls languageCode="nl" name="code_resource"/>
+					<nls languageCode="ca" name="code_resource"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="nom_resource" isEditable="false" position="3" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="nom_resource"/>
+					<nls languageCode="de" name="nom_resource"/>
+					<nls languageCode="sv" name="nom_resource"/>
+					<nls languageCode="ru" name="nom_resource"/>
+					<nls languageCode="fi" name="nom_resource"/>
+					<nls languageCode="pt" name="nom_resource"/>
+					<nls languageCode="ko" name="nom_resource"/>
+					<nls languageCode="en" name="nom_resource"/>
+					<nls languageCode="it" name="nom_resource"/>
+					<nls languageCode="fr" name="nom_resource"/>
+					<nls languageCode="hu" name="nom_resource"/>
+					<nls languageCode="zh" name="nom_resource"/>
+					<nls languageCode="es" name="nom_resource"/>
+					<nls languageCode="cs" name="nom_resource"/>
+					<nls languageCode="zh_TW" name="nom_resource"/>
+					<nls languageCode="ja" name="nom_resource"/>
+					<nls languageCode="pl" name="nom_resource"/>
+					<nls languageCode="da" name="nom_resource"/>
+					<nls languageCode="tr" name="nom_resource"/>
+					<nls languageCode="nl" name="nom_resource"/>
+					<nls languageCode="ca" name="nom_resource"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="debut" isEditable="false" position="4" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="debut"/>
+					<nls languageCode="de" name="debut"/>
+					<nls languageCode="sv" name="debut"/>
+					<nls languageCode="ru" name="debut"/>
+					<nls languageCode="fi" name="debut"/>
+					<nls languageCode="pt" name="debut"/>
+					<nls languageCode="ko" name="debut"/>
+					<nls languageCode="en" name="debut"/>
+					<nls languageCode="it" name="debut"/>
+					<nls languageCode="fr" name="debut"/>
+					<nls languageCode="hu" name="debut"/>
+					<nls languageCode="zh" name="debut"/>
+					<nls languageCode="es" name="debut"/>
+					<nls languageCode="cs" name="debut"/>
+					<nls languageCode="zh_TW" name="debut"/>
+					<nls languageCode="ja" name="debut"/>
+					<nls languageCode="pl" name="debut"/>
+					<nls languageCode="da" name="debut"/>
+					<nls languageCode="tr" name="debut"/>
+					<nls languageCode="nl" name="debut"/>
+					<nls languageCode="ca" name="debut"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="fin" isEditable="false" position="5" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="de" name="fin"/>
+					<nls languageCode="no" name="fin"/>
+					<nls languageCode="fi" name="fin"/>
+					<nls languageCode="ru" name="fin"/>
+					<nls languageCode="sv" name="fin"/>
+					<nls languageCode="ko" name="fin"/>
+					<nls languageCode="pt" name="fin"/>
+					<nls languageCode="en" name="fin"/>
+					<nls languageCode="it" name="fin"/>
+					<nls languageCode="fr" name="fin"/>
+					<nls languageCode="hu" name="fin"/>
+					<nls languageCode="es" name="fin"/>
+					<nls languageCode="zh" name="fin"/>
+					<nls languageCode="cs" name="fin"/>
+					<nls languageCode="zh_TW" name="fin"/>
+					<nls languageCode="ja" name="fin"/>
+					<nls languageCode="pl" name="fin"/>
+					<nls languageCode="da" name="fin"/>
+					<nls languageCode="ca" name="fin"/>
+					<nls languageCode="nl" name="fin"/>
+					<nls languageCode="tr" name="fin"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="tache_cree" isEditable="false" position="6" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="tache_cree"/>
+					<nls languageCode="de" name="tache_cree"/>
+					<nls languageCode="sv" name="tache_cree"/>
+					<nls languageCode="ru" name="tache_cree"/>
+					<nls languageCode="fi" name="tache_cree"/>
+					<nls languageCode="pt" name="tache_cree"/>
+					<nls languageCode="ko" name="tache_cree"/>
+					<nls languageCode="en" name="tache_cree"/>
+					<nls languageCode="it" name="tache_cree"/>
+					<nls languageCode="fr" name="tache_cree"/>
+					<nls languageCode="hu" name="tache_cree"/>
+					<nls languageCode="zh" name="tache_cree"/>
+					<nls languageCode="es" name="tache_cree"/>
+					<nls languageCode="cs" name="tache_cree"/>
+					<nls languageCode="zh_TW" name="tache_cree"/>
+					<nls languageCode="ja" name="tache_cree"/>
+					<nls languageCode="pl" name="tache_cree"/>
+					<nls languageCode="da" name="tache_cree"/>
+					<nls languageCode="tr" name="tache_cree"/>
+					<nls languageCode="nl" name="tache_cree"/>
+					<nls languageCode="ca" name="tache_cree"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="tache_modifiee" isEditable="false" position="7" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="tache_modifiee"/>
+					<nls languageCode="de" name="tache_modifiee"/>
+					<nls languageCode="sv" name="tache_modifiee"/>
+					<nls languageCode="ru" name="tache_modifiee"/>
+					<nls languageCode="fi" name="tache_modifiee"/>
+					<nls languageCode="pt" name="tache_modifiee"/>
+					<nls languageCode="ko" name="tache_modifiee"/>
+					<nls languageCode="en" name="tache_modifiee"/>
+					<nls languageCode="it" name="tache_modifiee"/>
+					<nls languageCode="fr" name="tache_modifiee"/>
+					<nls languageCode="hu" name="tache_modifiee"/>
+					<nls languageCode="zh" name="tache_modifiee"/>
+					<nls languageCode="es" name="tache_modifiee"/>
+					<nls languageCode="cs" name="tache_modifiee"/>
+					<nls languageCode="zh_TW" name="tache_modifiee"/>
+					<nls languageCode="ja" name="tache_modifiee"/>
+					<nls languageCode="pl" name="tache_modifiee"/>
+					<nls languageCode="da" name="tache_modifiee"/>
+					<nls languageCode="tr" name="tache_modifiee"/>
+					<nls languageCode="nl" name="tache_modifiee"/>
+					<nls languageCode="ca" name="tache_modifiee"/>
+				</column>
+				<column align="right" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="affecte_m" isEditable="false" position="8" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="affecte_m"/>
+					<nls languageCode="de" name="affecte_m"/>
+					<nls languageCode="sv" name="affecte_m"/>
+					<nls languageCode="ru" name="affecte_m"/>
+					<nls languageCode="fi" name="affecte_m"/>
+					<nls languageCode="pt" name="affecte_m"/>
+					<nls languageCode="ko" name="affecte_m"/>
+					<nls languageCode="en" name="affecte_m"/>
+					<nls languageCode="it" name="affecte_m"/>
+					<nls languageCode="fr" name="affecte_m"/>
+					<nls languageCode="hu" name="affecte_m"/>
+					<nls languageCode="zh" name="affecte_m"/>
+					<nls languageCode="es" name="affecte_m"/>
+					<nls languageCode="cs" name="affecte_m"/>
+					<nls languageCode="zh_TW" name="affecte_m"/>
+					<nls languageCode="ja" name="affecte_m"/>
+					<nls languageCode="pl" name="affecte_m"/>
+					<nls languageCode="da" name="affecte_m"/>
+					<nls languageCode="tr" name="affecte_m"/>
+					<nls languageCode="nl" name="affecte_m"/>
+					<nls languageCode="ca" name="affecte_m"/>
+				</column>
+				<column align="right" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="affecte_tt" isEditable="false" position="9" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="affecte_tt"/>
+					<nls languageCode="de" name="affecte_tt"/>
+					<nls languageCode="sv" name="affecte_tt"/>
+					<nls languageCode="ru" name="affecte_tt"/>
+					<nls languageCode="fi" name="affecte_tt"/>
+					<nls languageCode="pt" name="affecte_tt"/>
+					<nls languageCode="ko" name="affecte_tt"/>
+					<nls languageCode="en" name="affecte_tt"/>
+					<nls languageCode="it" name="affecte_tt"/>
+					<nls languageCode="fr" name="affecte_tt"/>
+					<nls languageCode="hu" name="affecte_tt"/>
+					<nls languageCode="zh" name="affecte_tt"/>
+					<nls languageCode="es" name="affecte_tt"/>
+					<nls languageCode="cs" name="affecte_tt"/>
+					<nls languageCode="zh_TW" name="affecte_tt"/>
+					<nls languageCode="ja" name="affecte_tt"/>
+					<nls languageCode="pl" name="affecte_tt"/>
+					<nls languageCode="da" name="affecte_tt"/>
+					<nls languageCode="tr" name="affecte_tt"/>
+					<nls languageCode="nl" name="affecte_tt"/>
+					<nls languageCode="ca" name="affecte_tt"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="unique_id" isEditable="false" position="-1" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="de" name="unique_id"/>
+					<nls languageCode="no" name="unique_id"/>
+					<nls languageCode="fi" name="unique_id"/>
+					<nls languageCode="ru" name="unique_id"/>
+					<nls languageCode="sv" name="unique_id"/>
+					<nls languageCode="ko" name="unique_id"/>
+					<nls languageCode="pt" name="unique_id"/>
+					<nls languageCode="en" name="unique_id"/>
+					<nls languageCode="it" name="unique_id"/>
+					<nls languageCode="fr" name="unique_id"/>
+					<nls languageCode="hu" name="unique_id"/>
+					<nls languageCode="es" name="unique_id"/>
+					<nls languageCode="zh" name="unique_id"/>
+					<nls languageCode="cs" name="unique_id"/>
+					<nls languageCode="zh_TW" name="unique_id"/>
+					<nls languageCode="ja" name="unique_id"/>
+					<nls languageCode="pl" name="unique_id"/>
+					<nls languageCode="da" name="unique_id"/>
+					<nls languageCode="ca" name="unique_id"/>
+					<nls languageCode="nl" name="unique_id"/>
+					<nls languageCode="tr" name="unique_id"/>
+				</column>
+				<OBSAssocs complete="false"/>
+				<Security/>
+				<filter code="CP_COP_PLANCHARGEMENSUELLES" componentCode="odf" dataProviderId="CQ_COP_PLANCHARGEMENSUELLES" dataProviderType="nsql" objectCode="CQ_COP_PLANCHARGEMENSUELLES" partitionCode="NIKU.ROOT">
+					<section collapsed="true" currentState="collapsed" filterByExpression="false">
+						<nls languageCode="ca" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="cs" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="da" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="de" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="en" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="es" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="fi" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="fr" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="hu" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="it" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="ja" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="ko" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="nl" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="no" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="pl" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="pt" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="ru" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="sv" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="tr" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="zh" name="CP_COP_PlanChargeMensuelles Filter"/>
+						<nls languageCode="zh_TW" name="CP_COP_PlanChargeMensuelles Filter"/>
+					</section>
+					<defaultDisplay>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="affecte_m" dataSize="30" decimals="0" extType="double" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="numeric">
+							<nls languageCode="ca" name="affecte_m"/>
+							<nls languageCode="cs" name="affecte_m"/>
+							<nls languageCode="da" name="affecte_m"/>
+							<nls languageCode="de" name="affecte_m"/>
+							<nls languageCode="en" name="affecte_m"/>
+							<nls languageCode="es" name="affecte_m"/>
+							<nls languageCode="fi" name="affecte_m"/>
+							<nls languageCode="fr" name="affecte_m"/>
+							<nls languageCode="hu" name="affecte_m"/>
+							<nls languageCode="it" name="affecte_m"/>
+							<nls languageCode="ja" name="affecte_m"/>
+							<nls languageCode="ko" name="affecte_m"/>
+							<nls languageCode="nl" name="affecte_m"/>
+							<nls languageCode="no" name="affecte_m"/>
+							<nls languageCode="pl" name="affecte_m"/>
+							<nls languageCode="pt" name="affecte_m"/>
+							<nls languageCode="ru" name="affecte_m"/>
+							<nls languageCode="sv" name="affecte_m"/>
+							<nls languageCode="tr" name="affecte_m"/>
+							<nls languageCode="zh" name="affecte_m"/>
+							<nls languageCode="zh_TW" name="affecte_m"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="affecte_tt" dataSize="30" decimals="0" extType="double" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="numeric">
+							<nls languageCode="ca" name="affecte_tt"/>
+							<nls languageCode="cs" name="affecte_tt"/>
+							<nls languageCode="da" name="affecte_tt"/>
+							<nls languageCode="de" name="affecte_tt"/>
+							<nls languageCode="en" name="affecte_tt"/>
+							<nls languageCode="es" name="affecte_tt"/>
+							<nls languageCode="fi" name="affecte_tt"/>
+							<nls languageCode="fr" name="affecte_tt"/>
+							<nls languageCode="hu" name="affecte_tt"/>
+							<nls languageCode="it" name="affecte_tt"/>
+							<nls languageCode="ja" name="affecte_tt"/>
+							<nls languageCode="ko" name="affecte_tt"/>
+							<nls languageCode="nl" name="affecte_tt"/>
+							<nls languageCode="no" name="affecte_tt"/>
+							<nls languageCode="pl" name="affecte_tt"/>
+							<nls languageCode="pt" name="affecte_tt"/>
+							<nls languageCode="ru" name="affecte_tt"/>
+							<nls languageCode="sv" name="affecte_tt"/>
+							<nls languageCode="tr" name="affecte_tt"/>
+							<nls languageCode="zh" name="affecte_tt"/>
+							<nls languageCode="zh_TW" name="affecte_tt"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="code_projet" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="code_projet"/>
+							<nls languageCode="cs" name="code_projet"/>
+							<nls languageCode="da" name="code_projet"/>
+							<nls languageCode="de" name="code_projet"/>
+							<nls languageCode="en" name="code_projet"/>
+							<nls languageCode="es" name="code_projet"/>
+							<nls languageCode="fi" name="code_projet"/>
+							<nls languageCode="fr" name="code_projet"/>
+							<nls languageCode="hu" name="code_projet"/>
+							<nls languageCode="it" name="code_projet"/>
+							<nls languageCode="ja" name="code_projet"/>
+							<nls languageCode="ko" name="code_projet"/>
+							<nls languageCode="nl" name="code_projet"/>
+							<nls languageCode="no" name="code_projet"/>
+							<nls languageCode="pl" name="code_projet"/>
+							<nls languageCode="pt" name="code_projet"/>
+							<nls languageCode="ru" name="code_projet"/>
+							<nls languageCode="sv" name="code_projet"/>
+							<nls languageCode="tr" name="code_projet"/>
+							<nls languageCode="zh" name="code_projet"/>
+							<nls languageCode="zh_TW" name="code_projet"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="code_resource" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="code_resource"/>
+							<nls languageCode="cs" name="code_resource"/>
+							<nls languageCode="da" name="code_resource"/>
+							<nls languageCode="de" name="code_resource"/>
+							<nls languageCode="en" name="code_resource"/>
+							<nls languageCode="es" name="code_resource"/>
+							<nls languageCode="fi" name="code_resource"/>
+							<nls languageCode="fr" name="code_resource"/>
+							<nls languageCode="hu" name="code_resource"/>
+							<nls languageCode="it" name="code_resource"/>
+							<nls languageCode="ja" name="code_resource"/>
+							<nls languageCode="ko" name="code_resource"/>
+							<nls languageCode="nl" name="code_resource"/>
+							<nls languageCode="no" name="code_resource"/>
+							<nls languageCode="pl" name="code_resource"/>
+							<nls languageCode="pt" name="code_resource"/>
+							<nls languageCode="ru" name="code_resource"/>
+							<nls languageCode="sv" name="code_resource"/>
+							<nls languageCode="tr" name="code_resource"/>
+							<nls languageCode="zh" name="code_resource"/>
+							<nls languageCode="zh_TW" name="code_resource"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="debut" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="debut"/>
+							<nls languageCode="cs" name="debut"/>
+							<nls languageCode="da" name="debut"/>
+							<nls languageCode="de" name="debut"/>
+							<nls languageCode="en" name="debut"/>
+							<nls languageCode="es" name="debut"/>
+							<nls languageCode="fi" name="debut"/>
+							<nls languageCode="fr" name="debut"/>
+							<nls languageCode="hu" name="debut"/>
+							<nls languageCode="it" name="debut"/>
+							<nls languageCode="ja" name="debut"/>
+							<nls languageCode="ko" name="debut"/>
+							<nls languageCode="nl" name="debut"/>
+							<nls languageCode="no" name="debut"/>
+							<nls languageCode="pl" name="debut"/>
+							<nls languageCode="pt" name="debut"/>
+							<nls languageCode="ru" name="debut"/>
+							<nls languageCode="sv" name="debut"/>
+							<nls languageCode="tr" name="debut"/>
+							<nls languageCode="zh" name="debut"/>
+							<nls languageCode="zh_TW" name="debut"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="fin" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="fin"/>
+							<nls languageCode="cs" name="fin"/>
+							<nls languageCode="da" name="fin"/>
+							<nls languageCode="de" name="fin"/>
+							<nls languageCode="en" name="fin"/>
+							<nls languageCode="es" name="fin"/>
+							<nls languageCode="fi" name="fin"/>
+							<nls languageCode="fr" name="fin"/>
+							<nls languageCode="hu" name="fin"/>
+							<nls languageCode="it" name="fin"/>
+							<nls languageCode="ja" name="fin"/>
+							<nls languageCode="ko" name="fin"/>
+							<nls languageCode="nl" name="fin"/>
+							<nls languageCode="no" name="fin"/>
+							<nls languageCode="pl" name="fin"/>
+							<nls languageCode="pt" name="fin"/>
+							<nls languageCode="ru" name="fin"/>
+							<nls languageCode="sv" name="fin"/>
+							<nls languageCode="tr" name="fin"/>
+							<nls languageCode="zh" name="fin"/>
+							<nls languageCode="zh_TW" name="fin"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="nom_resource" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="nom_resource"/>
+							<nls languageCode="cs" name="nom_resource"/>
+							<nls languageCode="da" name="nom_resource"/>
+							<nls languageCode="de" name="nom_resource"/>
+							<nls languageCode="en" name="nom_resource"/>
+							<nls languageCode="es" name="nom_resource"/>
+							<nls languageCode="fi" name="nom_resource"/>
+							<nls languageCode="fr" name="nom_resource"/>
+							<nls languageCode="hu" name="nom_resource"/>
+							<nls languageCode="it" name="nom_resource"/>
+							<nls languageCode="ja" name="nom_resource"/>
+							<nls languageCode="ko" name="nom_resource"/>
+							<nls languageCode="nl" name="nom_resource"/>
+							<nls languageCode="no" name="nom_resource"/>
+							<nls languageCode="pl" name="nom_resource"/>
+							<nls languageCode="pt" name="nom_resource"/>
+							<nls languageCode="ru" name="nom_resource"/>
+							<nls languageCode="sv" name="nom_resource"/>
+							<nls languageCode="tr" name="nom_resource"/>
+							<nls languageCode="zh" name="nom_resource"/>
+							<nls languageCode="zh_TW" name="nom_resource"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="tache_cree" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="tache_cree"/>
+							<nls languageCode="cs" name="tache_cree"/>
+							<nls languageCode="da" name="tache_cree"/>
+							<nls languageCode="de" name="tache_cree"/>
+							<nls languageCode="en" name="tache_cree"/>
+							<nls languageCode="es" name="tache_cree"/>
+							<nls languageCode="fi" name="tache_cree"/>
+							<nls languageCode="fr" name="tache_cree"/>
+							<nls languageCode="hu" name="tache_cree"/>
+							<nls languageCode="it" name="tache_cree"/>
+							<nls languageCode="ja" name="tache_cree"/>
+							<nls languageCode="ko" name="tache_cree"/>
+							<nls languageCode="nl" name="tache_cree"/>
+							<nls languageCode="no" name="tache_cree"/>
+							<nls languageCode="pl" name="tache_cree"/>
+							<nls languageCode="pt" name="tache_cree"/>
+							<nls languageCode="ru" name="tache_cree"/>
+							<nls languageCode="sv" name="tache_cree"/>
+							<nls languageCode="tr" name="tache_cree"/>
+							<nls languageCode="zh" name="tache_cree"/>
+							<nls languageCode="zh_TW" name="tache_cree"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="tache_modifiee" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="tache_modifiee"/>
+							<nls languageCode="cs" name="tache_modifiee"/>
+							<nls languageCode="da" name="tache_modifiee"/>
+							<nls languageCode="de" name="tache_modifiee"/>
+							<nls languageCode="en" name="tache_modifiee"/>
+							<nls languageCode="es" name="tache_modifiee"/>
+							<nls languageCode="fi" name="tache_modifiee"/>
+							<nls languageCode="fr" name="tache_modifiee"/>
+							<nls languageCode="hu" name="tache_modifiee"/>
+							<nls languageCode="it" name="tache_modifiee"/>
+							<nls languageCode="ja" name="tache_modifiee"/>
+							<nls languageCode="ko" name="tache_modifiee"/>
+							<nls languageCode="nl" name="tache_modifiee"/>
+							<nls languageCode="no" name="tache_modifiee"/>
+							<nls languageCode="pl" name="tache_modifiee"/>
+							<nls languageCode="pt" name="tache_modifiee"/>
+							<nls languageCode="ru" name="tache_modifiee"/>
+							<nls languageCode="sv" name="tache_modifiee"/>
+							<nls languageCode="tr" name="tache_modifiee"/>
+							<nls languageCode="zh" name="tache_modifiee"/>
+							<nls languageCode="zh_TW" name="tache_modifiee"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="unique_id" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="unique_id"/>
+							<nls languageCode="cs" name="unique_id"/>
+							<nls languageCode="da" name="unique_id"/>
+							<nls languageCode="de" name="unique_id"/>
+							<nls languageCode="en" name="unique_id"/>
+							<nls languageCode="es" name="unique_id"/>
+							<nls languageCode="fi" name="unique_id"/>
+							<nls languageCode="fr" name="unique_id"/>
+							<nls languageCode="hu" name="unique_id"/>
+							<nls languageCode="it" name="unique_id"/>
+							<nls languageCode="ja" name="unique_id"/>
+							<nls languageCode="ko" name="unique_id"/>
+							<nls languageCode="nl" name="unique_id"/>
+							<nls languageCode="no" name="unique_id"/>
+							<nls languageCode="pl" name="unique_id"/>
+							<nls languageCode="pt" name="unique_id"/>
+							<nls languageCode="ru" name="unique_id"/>
+							<nls languageCode="sv" name="unique_id"/>
+							<nls languageCode="tr" name="unique_id"/>
+							<nls languageCode="zh" name="unique_id"/>
+							<nls languageCode="zh_TW" name="unique_id"/>
+						</viewFieldDescriptor>
+					</defaultDisplay>
+				</filter>
+			</gridPortlet>
+		</portlets>
+		<queries update="true">
+			<query category="businessIntelligence" code="CQ_COP_PLANCHARGEMENSUELLES" isUserPortletAvailable="1" source="customer">
+				<nls languageCode="ca" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="cs" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="da" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="de" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls description="V101" languageCode="en" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="es" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="fi" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="fr" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="hu" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="it" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="ja" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="ko" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="nl" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="no" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="pl" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="pt" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="ru" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="sv" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="tr" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="zh" name="CQ_COP_PlanChargeMensuelles"/>
+				<nls languageCode="zh_TW" name="CQ_COP_PlanChargeMensuelles"/>
+				<nsql dbId="Niku" dbVendor="all"><![CDATA[SELECT
+   @SELECT:DIM:USER_DEF:IMPLIED:L:A.UNIQUE_ID:UNIQUE_ID@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.INV_CODE:CODE_PROJET@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.TEAM_CODE:CODE_RESOURCE@,   
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.TEAM_NAME:NOM_RESOURCE@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.DT_REF_MIN:DEBUT@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.DT_REF_MAX:FIN@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.DT_CREATE:TACHE_CREE@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.DT_UPD:TACHE_MODIFIEE@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.allocM:AFFECTE_M@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.allocSum:AFFECTE_TT@
+FROM
+(
+SELECT
+    I.CODE || TD.CODE || to_char(REF_DATE.START_DATE, 'MMYYYY') UNIQUE_ID,
+    I.CODE INV_CODE,
+    TD.CODE TEAM_CODE,
+    TD.NAME TEAM_NAME,
+    TO_CHAR(REF_DATE.START_DATE, '01/MM/YYYY') DT_REF_MIN,
+    TO_CHAR(REF_DATE.FINISH_DATE-1, 'DD/MM/YYYY') DT_REF_MAX,
+    TO_CHAR(T.CREATED_DATE, 'DD/MM/YYYY') DT_CREATE,
+    TO_CHAR(T.LAST_UPDATED_DATE, 'DD/MM/YYYY') DT_UPD,
+    NK_SUM_FCT(T.odf_nk_odf_pralloccurve, REF_DATE.START_DATE, REF_DATE.FINISH_DATE) /28800 AS allocM,
+    T.prAllocSum / 28800 AS allocSum
+
+FROM
+    INV_INVESTMENTS I
+        INNER JOIN PRTeam T ON (T.prProjectID = I.ID)
+            INNER JOIN SRM_RESOURCES RT on (RT.ID = T.prResourceID)
+                INNER JOIN TEAM_DEFINITIONS TD on (TD.ID = RT.DEFINED_TEAM_ID)
+
+    CROSS JOIN (SELECT START_DATE, FINISH_DATE 
+        FROM unnest( PFM_DEFAULT_CALENDAR_FCT( CAST(DATE_TRUNC('year',CURRENT_DATE-730) AS timestamp) , 
+                                                'MONTH',60
+                                                )
+                    )
+        ) REF_DATE
+WHERE
+    I.IS_ACTIVE = 1
+AND T.prAllocSum > 0
+) A
+WHERE
+  A.allocM > 0
+AND @FILTER@]]></nsql>
+				<attribute id="affecte_tt" required="false"/>
+				<attribute id="affecte_m" required="false"/>
+				<attribute id="tache_modifiee" required="false"/>
+				<attribute id="tache_cree" required="false"/>
+				<attribute id="fin" required="false"/>
+				<attribute id="debut" required="false"/>
+				<attribute id="nom_resource" required="false"/>
+				<attribute id="code_resource" required="false"/>
+				<attribute id="code_projet" required="false"/>
+				<attribute id="unique_id" required="false"/>
+			</query>
+		</queries>
+	</contentPack>
+</NikuDataBus>

@@ -1,0 +1,311 @@
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_contentPack.xsd">
+	<Header action="write" externalSource="NIKU" objectType="contentPack" version="16.0.0.890"/>
+	<contentPack update="true">
+		<portlets update="true">
+			<gridPortlet allowConfigure="true" allowConfigureLabel="true" allowEditing="false" category="businessIntelligence" code="CP_COP_EXTRACTPLANCAPACITAIRE" dataProviderId="CQ_COP_EXTRACTPLANCAPACITAIRE" dataProviderPartitionId="NIKU.ROOT" dataProviderType="nsql" defaultSortColumn="unique_id" defaultSortOrder="ascending" forceFilter="false" gridAttributeProtection="0" hasEditableColumn="false" metricsLocation="bottom" objectType="SYSTEM" querySource="customer" showAltValueText="false" showColumnCurrencyCode="false" source="customer">
+				<nls languageCode="de" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="no" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="fi" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="ru" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="sv" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="ko" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="pt" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="en" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="it" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="fr" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="hu" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="es" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="zh" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="cs" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="zh_TW" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="ja" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="pl" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="da" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="ca" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="nl" name="CP_COP_extractPlanCapacitaire"/>
+				<nls languageCode="tr" name="CP_COP_extractPlanCapacitaire"/>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="employee_id" isEditable="false" position="1" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="de" name="employee_id"/>
+					<nls languageCode="no" name="employee_id"/>
+					<nls languageCode="fi" name="employee_id"/>
+					<nls languageCode="ru" name="employee_id"/>
+					<nls languageCode="sv" name="employee_id"/>
+					<nls languageCode="ko" name="employee_id"/>
+					<nls languageCode="pt" name="employee_id"/>
+					<nls languageCode="en" name="employee_id"/>
+					<nls languageCode="it" name="employee_id"/>
+					<nls languageCode="fr" name="employee_id"/>
+					<nls languageCode="hu" name="employee_id"/>
+					<nls languageCode="es" name="employee_id"/>
+					<nls languageCode="zh" name="employee_id"/>
+					<nls languageCode="cs" name="employee_id"/>
+					<nls languageCode="zh_TW" name="employee_id"/>
+					<nls languageCode="ja" name="employee_id"/>
+					<nls languageCode="pl" name="employee_id"/>
+					<nls languageCode="da" name="employee_id"/>
+					<nls languageCode="ca" name="employee_id"/>
+					<nls languageCode="nl" name="employee_id"/>
+					<nls languageCode="tr" name="employee_id"/>
+				</column>
+				<column align="right" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="date" isEditable="false" position="2" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="de" name="date"/>
+					<nls languageCode="no" name="date"/>
+					<nls languageCode="fi" name="date"/>
+					<nls languageCode="ru" name="date"/>
+					<nls languageCode="sv" name="date"/>
+					<nls languageCode="ko" name="date"/>
+					<nls languageCode="pt" name="date"/>
+					<nls languageCode="en" name="date"/>
+					<nls languageCode="it" name="date"/>
+					<nls languageCode="fr" name="date"/>
+					<nls languageCode="hu" name="date"/>
+					<nls languageCode="es" name="date"/>
+					<nls languageCode="zh" name="date"/>
+					<nls languageCode="cs" name="date"/>
+					<nls languageCode="zh_TW" name="date"/>
+					<nls languageCode="ja" name="date"/>
+					<nls languageCode="pl" name="date"/>
+					<nls languageCode="da" name="date"/>
+					<nls languageCode="ca" name="date"/>
+					<nls languageCode="nl" name="date"/>
+					<nls languageCode="tr" name="date"/>
+				</column>
+				<column align="right" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="jours" isEditable="false" position="3" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="de" name="jours"/>
+					<nls languageCode="no" name="jours"/>
+					<nls languageCode="fi" name="jours"/>
+					<nls languageCode="ru" name="jours"/>
+					<nls languageCode="sv" name="jours"/>
+					<nls languageCode="ko" name="jours"/>
+					<nls languageCode="pt" name="jours"/>
+					<nls languageCode="en" name="jours"/>
+					<nls languageCode="it" name="jours"/>
+					<nls languageCode="fr" name="jours"/>
+					<nls languageCode="hu" name="jours"/>
+					<nls languageCode="es" name="jours"/>
+					<nls languageCode="zh" name="jours"/>
+					<nls languageCode="cs" name="jours"/>
+					<nls languageCode="zh_TW" name="jours"/>
+					<nls languageCode="ja" name="jours"/>
+					<nls languageCode="pl" name="jours"/>
+					<nls languageCode="da" name="jours"/>
+					<nls languageCode="ca" name="jours"/>
+					<nls languageCode="nl" name="jours"/>
+					<nls languageCode="tr" name="jours"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="unique_id" isEditable="false" position="-1" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="de" name="unique_id"/>
+					<nls languageCode="no" name="unique_id"/>
+					<nls languageCode="fi" name="unique_id"/>
+					<nls languageCode="ru" name="unique_id"/>
+					<nls languageCode="sv" name="unique_id"/>
+					<nls languageCode="ko" name="unique_id"/>
+					<nls languageCode="pt" name="unique_id"/>
+					<nls languageCode="en" name="unique_id"/>
+					<nls languageCode="it" name="unique_id"/>
+					<nls languageCode="fr" name="unique_id"/>
+					<nls languageCode="hu" name="unique_id"/>
+					<nls languageCode="es" name="unique_id"/>
+					<nls languageCode="zh" name="unique_id"/>
+					<nls languageCode="cs" name="unique_id"/>
+					<nls languageCode="zh_TW" name="unique_id"/>
+					<nls languageCode="ja" name="unique_id"/>
+					<nls languageCode="pl" name="unique_id"/>
+					<nls languageCode="da" name="unique_id"/>
+					<nls languageCode="ca" name="unique_id"/>
+					<nls languageCode="nl" name="unique_id"/>
+					<nls languageCode="tr" name="unique_id"/>
+				</column>
+				<OBSAssocs complete="false"/>
+				<Security/>
+				<filter code="CP_COP_EXTRACTPLANCAPACITAIRE" componentCode="odf" dataProviderId="CQ_COP_EXTRACTPLANCAPACITAIRE" dataProviderType="nsql" objectCode="CQ_COP_EXTRACTPLANCAPACITAIRE" partitionCode="NIKU.ROOT">
+					<section collapsed="true" currentState="collapsed" filterByExpression="false">
+						<nls languageCode="ca" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="cs" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="da" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="de" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="en" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="es" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="fi" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="fr" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="hu" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="it" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="ja" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="ko" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="nl" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="no" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="pl" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="pt" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="ru" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="sv" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="tr" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="zh" name="CP_COP_extractPlanCapacitaire Filter"/>
+						<nls languageCode="zh_TW" name="CP_COP_extractPlanCapacitaire Filter"/>
+					</section>
+					<defaultDisplay>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="date" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="datepicker" width="30">
+							<nls languageCode="ca" name="date"/>
+							<nls languageCode="cs" name="date"/>
+							<nls languageCode="da" name="date"/>
+							<nls languageCode="de" name="date"/>
+							<nls languageCode="en" name="date"/>
+							<nls languageCode="es" name="date"/>
+							<nls languageCode="fi" name="date"/>
+							<nls languageCode="fr" name="date"/>
+							<nls languageCode="hu" name="date"/>
+							<nls languageCode="it" name="date"/>
+							<nls languageCode="ja" name="date"/>
+							<nls languageCode="ko" name="date"/>
+							<nls languageCode="nl" name="date"/>
+							<nls languageCode="no" name="date"/>
+							<nls languageCode="pl" name="date"/>
+							<nls languageCode="pt" name="date"/>
+							<nls languageCode="ru" name="date"/>
+							<nls languageCode="sv" name="date"/>
+							<nls languageCode="tr" name="date"/>
+							<nls languageCode="zh" name="date"/>
+							<nls languageCode="zh_TW" name="date"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="employee_id" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="employee_id"/>
+							<nls languageCode="cs" name="employee_id"/>
+							<nls languageCode="da" name="employee_id"/>
+							<nls languageCode="de" name="employee_id"/>
+							<nls languageCode="en" name="employee_id"/>
+							<nls languageCode="es" name="employee_id"/>
+							<nls languageCode="fi" name="employee_id"/>
+							<nls languageCode="fr" name="employee_id"/>
+							<nls languageCode="hu" name="employee_id"/>
+							<nls languageCode="it" name="employee_id"/>
+							<nls languageCode="ja" name="employee_id"/>
+							<nls languageCode="ko" name="employee_id"/>
+							<nls languageCode="nl" name="employee_id"/>
+							<nls languageCode="no" name="employee_id"/>
+							<nls languageCode="pl" name="employee_id"/>
+							<nls languageCode="pt" name="employee_id"/>
+							<nls languageCode="ru" name="employee_id"/>
+							<nls languageCode="sv" name="employee_id"/>
+							<nls languageCode="tr" name="employee_id"/>
+							<nls languageCode="zh" name="employee_id"/>
+							<nls languageCode="zh_TW" name="employee_id"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="jours" dataSize="30" decimals="0" extType="double" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="numeric">
+							<nls languageCode="ca" name="jours"/>
+							<nls languageCode="cs" name="jours"/>
+							<nls languageCode="da" name="jours"/>
+							<nls languageCode="de" name="jours"/>
+							<nls languageCode="en" name="jours"/>
+							<nls languageCode="es" name="jours"/>
+							<nls languageCode="fi" name="jours"/>
+							<nls languageCode="fr" name="jours"/>
+							<nls languageCode="hu" name="jours"/>
+							<nls languageCode="it" name="jours"/>
+							<nls languageCode="ja" name="jours"/>
+							<nls languageCode="ko" name="jours"/>
+							<nls languageCode="nl" name="jours"/>
+							<nls languageCode="no" name="jours"/>
+							<nls languageCode="pl" name="jours"/>
+							<nls languageCode="pt" name="jours"/>
+							<nls languageCode="ru" name="jours"/>
+							<nls languageCode="sv" name="jours"/>
+							<nls languageCode="tr" name="jours"/>
+							<nls languageCode="zh" name="jours"/>
+							<nls languageCode="zh_TW" name="jours"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="unique_id" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="unique_id"/>
+							<nls languageCode="cs" name="unique_id"/>
+							<nls languageCode="da" name="unique_id"/>
+							<nls languageCode="de" name="unique_id"/>
+							<nls languageCode="en" name="unique_id"/>
+							<nls languageCode="es" name="unique_id"/>
+							<nls languageCode="fi" name="unique_id"/>
+							<nls languageCode="fr" name="unique_id"/>
+							<nls languageCode="hu" name="unique_id"/>
+							<nls languageCode="it" name="unique_id"/>
+							<nls languageCode="ja" name="unique_id"/>
+							<nls languageCode="ko" name="unique_id"/>
+							<nls languageCode="nl" name="unique_id"/>
+							<nls languageCode="no" name="unique_id"/>
+							<nls languageCode="pl" name="unique_id"/>
+							<nls languageCode="pt" name="unique_id"/>
+							<nls languageCode="ru" name="unique_id"/>
+							<nls languageCode="sv" name="unique_id"/>
+							<nls languageCode="tr" name="unique_id"/>
+							<nls languageCode="zh" name="unique_id"/>
+							<nls languageCode="zh_TW" name="unique_id"/>
+						</viewFieldDescriptor>
+					</defaultDisplay>
+				</filter>
+			</gridPortlet>
+		</portlets>
+		<queries update="true">
+			<query category="businessIntelligence" code="CQ_COP_EXTRACTPLANCAPACITAIRE" isUserPortletAvailable="1" source="customer">
+				<nls description="V100" languageCode="ca" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="cs" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="da" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="de" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="en" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="es" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="fi" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="fr" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="hu" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="it" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="ja" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="ko" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="nl" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="no" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="pl" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="pt" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="ru" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="sv" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="tr" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="zh" name="CQ_COP_extractPlanCapacitaire"/>
+				<nls description="V100" languageCode="zh_TW" name="CQ_COP_extractPlanCapacitaire"/>
+				<nsql dbId="Niku" dbVendor="all"><![CDATA[SELECT
+   @SELECT:DIM:USER_DEF:IMPLIED:L:A.UNIQUE_ID:UNIQUE_ID@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.RES_CODE:employee_id@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.START_DATE:date@,
+   @SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.TT_PLAN:jours@
+FROM
+(   
+SELECT
+	md5(DTA.RES_CODE || TO_CHAR(DTA.START_DATE,'YYYYMMDD')) UNIQUE_ID,
+	DTA.RES_CODE,
+	TO_CHAR(DTA.START_DATE, 'DD/MM/YYYY') START_DATE,
+	DTA.TT_PLAN
+FROM 
+(
+SELECT
+	R.UNIQUE_NAME RES_CODE,
+	REF_DATE.START_DATE,
+	NK_SUM_FCT(RO.odf_nk_pcs_dispo_th, REF_DATE.START_DATE, REF_DATE.FINISH_DATE) / 3600 AS TT_PLAN
+FROM 
+	ODF_CA_RESOURCE RO
+        INNER JOIN SRM_RESOURCES R on (R.ID = RO.ID)
+        INNER JOIN PRJ_RESOURCES RP on (RP.prID = RO.ID)
+    CROSS JOIN (SELECT START_DATE, FINISH_DATE 
+            FROM unnest( PFM_DEFAULT_CALENDAR_FCT( CAST(DATE_TRUNC('year',CURRENT_DATE-365) AS timestamp) , 
+												   'MONTH',36
+												 )
+						)
+			) REF_DATE
+
+WHERE
+	RP.prISROLE = 0
+AND	R.ID > 500000
+
+) DTA
+WHERE 
+	DTA.TT_PLAN > 0   
+) A
+WHERE
+  @FILTER@]]></nsql>
+				<attribute id="jours" required="false"/>
+				<attribute id="date" required="false"/>
+				<attribute id="employee_id" required="false"/>
+				<attribute id="unique_id" required="false"/>
+			</query>
+		</queries>
+	</contentPack>
+</NikuDataBus>

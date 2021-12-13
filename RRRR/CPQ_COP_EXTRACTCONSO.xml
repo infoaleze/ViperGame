@@ -1,0 +1,1112 @@
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_contentPack.xsd">
+	<Header action="write" externalSource="NIKU" objectType="contentPack" version="16.0.0.890"/>
+	<contentPack update="true">
+		<portlets update="true">
+			<gridPortlet allowConfigure="true" allowConfigureLabel="true" allowEditing="false" category="businessIntelligence" code="CP_COP_EXTRACTCONSO" dataProviderId="CQ_COP_EXTRACTCONSO" dataProviderPartitionId="NIKU.ROOT" dataProviderType="nsql" defaultSortColumn="nom" defaultSortOrder="ascending" forceFilter="false" fourthSortColumn="intitule_tache" fourthSortOrder="ascending" gridAttributeProtection="0" hasEditableColumn="false" metricsLocation="bottom" objectType="SYSTEM" querySource="customer" secondSortColumn="date" secondSortOrder="ascending" showAltValueText="false" showColumnCurrencyCode="false" source="customer" thirdSortColumn="code_projet" thirdSortOrder="ascending">
+				<nls languageCode="de" name="CP_COP_extractConso"/>
+				<nls languageCode="no" name="CP_COP_extractConso"/>
+				<nls languageCode="fi" name="CP_COP_extractConso"/>
+				<nls languageCode="ru" name="CP_COP_extractConso"/>
+				<nls languageCode="sv" name="CP_COP_extractConso"/>
+				<nls languageCode="ko" name="CP_COP_extractConso"/>
+				<nls languageCode="pt" name="CP_COP_extractConso"/>
+				<nls languageCode="en" name="CP_COP_extractConso"/>
+				<nls languageCode="it" name="CP_COP_extractConso"/>
+				<nls languageCode="fr" name="CP_COP_extractConso"/>
+				<nls languageCode="hu" name="CP_COP_extractConso"/>
+				<nls languageCode="es" name="CP_COP_extractConso"/>
+				<nls languageCode="zh" name="CP_COP_extractConso"/>
+				<nls languageCode="cs" name="CP_COP_extractConso"/>
+				<nls languageCode="zh_TW" name="CP_COP_extractConso"/>
+				<nls languageCode="ja" name="CP_COP_extractConso"/>
+				<nls languageCode="pl" name="CP_COP_extractConso"/>
+				<nls languageCode="da" name="CP_COP_extractConso"/>
+				<nls languageCode="ca" name="CP_COP_extractConso"/>
+				<nls languageCode="nl" name="CP_COP_extractConso"/>
+				<nls languageCode="tr" name="CP_COP_extractConso"/>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="id" isEditable="false" position="1" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="id"/>
+					<nls languageCode="de" name="id"/>
+					<nls languageCode="sv" name="id"/>
+					<nls languageCode="ru" name="id"/>
+					<nls languageCode="fi" name="id"/>
+					<nls languageCode="pt" name="id"/>
+					<nls languageCode="ko" name="id"/>
+					<nls languageCode="en" name="id"/>
+					<nls languageCode="it" name="id"/>
+					<nls languageCode="fr" name="id"/>
+					<nls languageCode="hu" name="id"/>
+					<nls languageCode="zh" name="id"/>
+					<nls languageCode="es" name="id"/>
+					<nls languageCode="cs" name="id"/>
+					<nls languageCode="zh_TW" name="id"/>
+					<nls languageCode="ja" name="id"/>
+					<nls languageCode="pl" name="id"/>
+					<nls languageCode="da" name="id"/>
+					<nls languageCode="tr" name="id"/>
+					<nls languageCode="nl" name="id"/>
+					<nls languageCode="ca" name="id"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="login_pcs" isEditable="false" position="2" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="login_pcs"/>
+					<nls languageCode="de" name="login_pcs"/>
+					<nls languageCode="sv" name="login_pcs"/>
+					<nls languageCode="ru" name="login_pcs"/>
+					<nls languageCode="fi" name="login_pcs"/>
+					<nls languageCode="pt" name="login_pcs"/>
+					<nls languageCode="ko" name="login_pcs"/>
+					<nls languageCode="en" name="login_pcs"/>
+					<nls languageCode="it" name="login_pcs"/>
+					<nls languageCode="fr" name="login_pcs"/>
+					<nls languageCode="hu" name="login_pcs"/>
+					<nls languageCode="zh" name="login_pcs"/>
+					<nls languageCode="es" name="login_pcs"/>
+					<nls languageCode="cs" name="login_pcs"/>
+					<nls languageCode="zh_TW" name="login_pcs"/>
+					<nls languageCode="ja" name="login_pcs"/>
+					<nls languageCode="pl" name="login_pcs"/>
+					<nls languageCode="da" name="login_pcs"/>
+					<nls languageCode="tr" name="login_pcs"/>
+					<nls languageCode="nl" name="login_pcs"/>
+					<nls languageCode="ca" name="login_pcs"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="nom" isEditable="false" position="3" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="nom"/>
+					<nls languageCode="de" name="nom"/>
+					<nls languageCode="sv" name="nom"/>
+					<nls languageCode="ru" name="nom"/>
+					<nls languageCode="fi" name="nom"/>
+					<nls languageCode="pt" name="nom"/>
+					<nls languageCode="ko" name="nom"/>
+					<nls languageCode="en" name="nom"/>
+					<nls languageCode="it" name="nom"/>
+					<nls languageCode="fr" name="nom"/>
+					<nls languageCode="hu" name="nom"/>
+					<nls languageCode="zh" name="nom"/>
+					<nls languageCode="es" name="nom"/>
+					<nls languageCode="cs" name="nom"/>
+					<nls languageCode="zh_TW" name="nom"/>
+					<nls languageCode="ja" name="nom"/>
+					<nls languageCode="pl" name="nom"/>
+					<nls languageCode="da" name="nom"/>
+					<nls languageCode="tr" name="nom"/>
+					<nls languageCode="nl" name="nom"/>
+					<nls languageCode="ca" name="nom"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="prenom" isEditable="false" position="4" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="prenom"/>
+					<nls languageCode="de" name="prenom"/>
+					<nls languageCode="sv" name="prenom"/>
+					<nls languageCode="ru" name="prenom"/>
+					<nls languageCode="fi" name="prenom"/>
+					<nls languageCode="pt" name="prenom"/>
+					<nls languageCode="ko" name="prenom"/>
+					<nls languageCode="en" name="prenom"/>
+					<nls languageCode="it" name="prenom"/>
+					<nls languageCode="fr" name="prenom"/>
+					<nls languageCode="hu" name="prenom"/>
+					<nls languageCode="zh" name="prenom"/>
+					<nls languageCode="es" name="prenom"/>
+					<nls languageCode="cs" name="prenom"/>
+					<nls languageCode="zh_TW" name="prenom"/>
+					<nls languageCode="ja" name="prenom"/>
+					<nls languageCode="pl" name="prenom"/>
+					<nls languageCode="da" name="prenom"/>
+					<nls languageCode="tr" name="prenom"/>
+					<nls languageCode="nl" name="prenom"/>
+					<nls languageCode="ca" name="prenom"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="type_contrat" isEditable="false" position="5" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="type_contrat"/>
+					<nls languageCode="de" name="type_contrat"/>
+					<nls languageCode="sv" name="type_contrat"/>
+					<nls languageCode="ru" name="type_contrat"/>
+					<nls languageCode="fi" name="type_contrat"/>
+					<nls languageCode="pt" name="type_contrat"/>
+					<nls languageCode="ko" name="type_contrat"/>
+					<nls languageCode="en" name="type_contrat"/>
+					<nls languageCode="it" name="type_contrat"/>
+					<nls languageCode="fr" name="type_contrat"/>
+					<nls languageCode="hu" name="type_contrat"/>
+					<nls languageCode="zh" name="type_contrat"/>
+					<nls languageCode="es" name="type_contrat"/>
+					<nls languageCode="cs" name="type_contrat"/>
+					<nls languageCode="zh_TW" name="type_contrat"/>
+					<nls languageCode="ja" name="type_contrat"/>
+					<nls languageCode="pl" name="type_contrat"/>
+					<nls languageCode="da" name="type_contrat"/>
+					<nls languageCode="tr" name="type_contrat"/>
+					<nls languageCode="nl" name="type_contrat"/>
+					<nls languageCode="ca" name="type_contrat"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="team" isEditable="false" position="6" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="team"/>
+					<nls languageCode="de" name="team"/>
+					<nls languageCode="sv" name="team"/>
+					<nls languageCode="ru" name="team"/>
+					<nls languageCode="fi" name="team"/>
+					<nls languageCode="pt" name="team"/>
+					<nls languageCode="ko" name="team"/>
+					<nls languageCode="en" name="team"/>
+					<nls languageCode="it" name="team"/>
+					<nls languageCode="fr" name="team"/>
+					<nls languageCode="hu" name="team"/>
+					<nls languageCode="zh" name="team"/>
+					<nls languageCode="es" name="team"/>
+					<nls languageCode="cs" name="team"/>
+					<nls languageCode="zh_TW" name="team"/>
+					<nls languageCode="ja" name="team"/>
+					<nls languageCode="pl" name="team"/>
+					<nls languageCode="da" name="team"/>
+					<nls languageCode="tr" name="team"/>
+					<nls languageCode="nl" name="team"/>
+					<nls languageCode="ca" name="team"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="reference_analytique" isEditable="false" position="7" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="reference_analytique"/>
+					<nls languageCode="de" name="reference_analytique"/>
+					<nls languageCode="sv" name="reference_analytique"/>
+					<nls languageCode="ru" name="reference_analytique"/>
+					<nls languageCode="fi" name="reference_analytique"/>
+					<nls languageCode="pt" name="reference_analytique"/>
+					<nls languageCode="ko" name="reference_analytique"/>
+					<nls languageCode="en" name="reference_analytique"/>
+					<nls languageCode="it" name="reference_analytique"/>
+					<nls languageCode="fr" name="reference_analytique"/>
+					<nls languageCode="hu" name="reference_analytique"/>
+					<nls languageCode="zh" name="reference_analytique"/>
+					<nls languageCode="es" name="reference_analytique"/>
+					<nls languageCode="cs" name="reference_analytique"/>
+					<nls languageCode="zh_TW" name="reference_analytique"/>
+					<nls languageCode="ja" name="reference_analytique"/>
+					<nls languageCode="pl" name="reference_analytique"/>
+					<nls languageCode="da" name="reference_analytique"/>
+					<nls languageCode="tr" name="reference_analytique"/>
+					<nls languageCode="nl" name="reference_analytique"/>
+					<nls languageCode="ca" name="reference_analytique"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="code_projet" isEditable="false" position="8" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="code_projet"/>
+					<nls languageCode="de" name="code_projet"/>
+					<nls languageCode="sv" name="code_projet"/>
+					<nls languageCode="ru" name="code_projet"/>
+					<nls languageCode="fi" name="code_projet"/>
+					<nls languageCode="pt" name="code_projet"/>
+					<nls languageCode="ko" name="code_projet"/>
+					<nls languageCode="en" name="code_projet"/>
+					<nls languageCode="it" name="code_projet"/>
+					<nls languageCode="fr" name="code_projet"/>
+					<nls languageCode="hu" name="code_projet"/>
+					<nls languageCode="zh" name="code_projet"/>
+					<nls languageCode="es" name="code_projet"/>
+					<nls languageCode="cs" name="code_projet"/>
+					<nls languageCode="zh_TW" name="code_projet"/>
+					<nls languageCode="ja" name="code_projet"/>
+					<nls languageCode="pl" name="code_projet"/>
+					<nls languageCode="da" name="code_projet"/>
+					<nls languageCode="tr" name="code_projet"/>
+					<nls languageCode="nl" name="code_projet"/>
+					<nls languageCode="ca" name="code_projet"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="phase" isEditable="false" position="9" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="de" name="phase"/>
+					<nls languageCode="no" name="phase"/>
+					<nls languageCode="fi" name="phase"/>
+					<nls languageCode="ru" name="phase"/>
+					<nls languageCode="sv" name="phase"/>
+					<nls languageCode="ko" name="phase"/>
+					<nls languageCode="pt" name="phase"/>
+					<nls languageCode="en" name="phase"/>
+					<nls languageCode="it" name="phase"/>
+					<nls languageCode="fr" name="phase"/>
+					<nls languageCode="hu" name="phase"/>
+					<nls languageCode="es" name="phase"/>
+					<nls languageCode="zh" name="phase"/>
+					<nls languageCode="cs" name="phase"/>
+					<nls languageCode="zh_TW" name="phase"/>
+					<nls languageCode="ja" name="phase"/>
+					<nls languageCode="pl" name="phase"/>
+					<nls languageCode="da" name="phase"/>
+					<nls languageCode="ca" name="phase"/>
+					<nls languageCode="nl" name="phase"/>
+					<nls languageCode="tr" name="phase"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="intitule_tache" isEditable="false" position="10" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="intitule_tache"/>
+					<nls languageCode="de" name="intitule_tache"/>
+					<nls languageCode="sv" name="intitule_tache"/>
+					<nls languageCode="ru" name="intitule_tache"/>
+					<nls languageCode="fi" name="intitule_tache"/>
+					<nls languageCode="pt" name="intitule_tache"/>
+					<nls languageCode="ko" name="intitule_tache"/>
+					<nls languageCode="en" name="intitule_tache"/>
+					<nls languageCode="it" name="intitule_tache"/>
+					<nls languageCode="fr" name="intitule_tache"/>
+					<nls languageCode="hu" name="intitule_tache"/>
+					<nls languageCode="zh" name="intitule_tache"/>
+					<nls languageCode="es" name="intitule_tache"/>
+					<nls languageCode="cs" name="intitule_tache"/>
+					<nls languageCode="zh_TW" name="intitule_tache"/>
+					<nls languageCode="ja" name="intitule_tache"/>
+					<nls languageCode="pl" name="intitule_tache"/>
+					<nls languageCode="da" name="intitule_tache"/>
+					<nls languageCode="tr" name="intitule_tache"/>
+					<nls languageCode="nl" name="intitule_tache"/>
+					<nls languageCode="ca" name="intitule_tache"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="date" isEditable="false" position="11" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="date"/>
+					<nls languageCode="de" name="date"/>
+					<nls languageCode="sv" name="date"/>
+					<nls languageCode="ru" name="date"/>
+					<nls languageCode="fi" name="date"/>
+					<nls languageCode="pt" name="date"/>
+					<nls languageCode="ko" name="date"/>
+					<nls languageCode="en" name="date"/>
+					<nls languageCode="it" name="date"/>
+					<nls languageCode="fr" name="date"/>
+					<nls languageCode="hu" name="date"/>
+					<nls languageCode="zh" name="date"/>
+					<nls languageCode="es" name="date"/>
+					<nls languageCode="cs" name="date"/>
+					<nls languageCode="zh_TW" name="date"/>
+					<nls languageCode="ja" name="date"/>
+					<nls languageCode="pl" name="date"/>
+					<nls languageCode="da" name="date"/>
+					<nls languageCode="tr" name="date"/>
+					<nls languageCode="nl" name="date"/>
+					<nls languageCode="ca" name="date"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="annee" isEditable="false" position="12" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="annee"/>
+					<nls languageCode="de" name="annee"/>
+					<nls languageCode="sv" name="annee"/>
+					<nls languageCode="ru" name="annee"/>
+					<nls languageCode="fi" name="annee"/>
+					<nls languageCode="pt" name="annee"/>
+					<nls languageCode="ko" name="annee"/>
+					<nls languageCode="en" name="annee"/>
+					<nls languageCode="it" name="annee"/>
+					<nls languageCode="fr" name="annee"/>
+					<nls languageCode="hu" name="annee"/>
+					<nls languageCode="zh" name="annee"/>
+					<nls languageCode="es" name="annee"/>
+					<nls languageCode="cs" name="annee"/>
+					<nls languageCode="zh_TW" name="annee"/>
+					<nls languageCode="ja" name="annee"/>
+					<nls languageCode="pl" name="annee"/>
+					<nls languageCode="da" name="annee"/>
+					<nls languageCode="tr" name="annee"/>
+					<nls languageCode="nl" name="annee"/>
+					<nls languageCode="ca" name="annee"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="mois" isEditable="false" position="13" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="mois"/>
+					<nls languageCode="de" name="mois"/>
+					<nls languageCode="sv" name="mois"/>
+					<nls languageCode="ru" name="mois"/>
+					<nls languageCode="fi" name="mois"/>
+					<nls languageCode="pt" name="mois"/>
+					<nls languageCode="ko" name="mois"/>
+					<nls languageCode="en" name="mois"/>
+					<nls languageCode="it" name="mois"/>
+					<nls languageCode="fr" name="mois"/>
+					<nls languageCode="hu" name="mois"/>
+					<nls languageCode="zh" name="mois"/>
+					<nls languageCode="es" name="mois"/>
+					<nls languageCode="cs" name="mois"/>
+					<nls languageCode="zh_TW" name="mois"/>
+					<nls languageCode="ja" name="mois"/>
+					<nls languageCode="pl" name="mois"/>
+					<nls languageCode="da" name="mois"/>
+					<nls languageCode="tr" name="mois"/>
+					<nls languageCode="nl" name="mois"/>
+					<nls languageCode="ca" name="mois"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="jour" isEditable="false" position="14" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="jour"/>
+					<nls languageCode="de" name="jour"/>
+					<nls languageCode="sv" name="jour"/>
+					<nls languageCode="ru" name="jour"/>
+					<nls languageCode="fi" name="jour"/>
+					<nls languageCode="pt" name="jour"/>
+					<nls languageCode="ko" name="jour"/>
+					<nls languageCode="en" name="jour"/>
+					<nls languageCode="it" name="jour"/>
+					<nls languageCode="fr" name="jour"/>
+					<nls languageCode="hu" name="jour"/>
+					<nls languageCode="zh" name="jour"/>
+					<nls languageCode="es" name="jour"/>
+					<nls languageCode="cs" name="jour"/>
+					<nls languageCode="zh_TW" name="jour"/>
+					<nls languageCode="ja" name="jour"/>
+					<nls languageCode="pl" name="jour"/>
+					<nls languageCode="da" name="jour"/>
+					<nls languageCode="tr" name="jour"/>
+					<nls languageCode="nl" name="jour"/>
+					<nls languageCode="ca" name="jour"/>
+				</column>
+				<column align="right" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="ft_validee" isEditable="false" position="15" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="ft_validee"/>
+					<nls languageCode="de" name="ft_validee"/>
+					<nls languageCode="sv" name="ft_validee"/>
+					<nls languageCode="ru" name="ft_validee"/>
+					<nls languageCode="fi" name="ft_validee"/>
+					<nls languageCode="pt" name="ft_validee"/>
+					<nls languageCode="ko" name="ft_validee"/>
+					<nls languageCode="en" name="ft_validee"/>
+					<nls languageCode="it" name="ft_validee"/>
+					<nls languageCode="fr" name="ft_validee"/>
+					<nls languageCode="hu" name="ft_validee"/>
+					<nls languageCode="zh" name="ft_validee"/>
+					<nls languageCode="es" name="ft_validee"/>
+					<nls languageCode="cs" name="ft_validee"/>
+					<nls languageCode="zh_TW" name="ft_validee"/>
+					<nls languageCode="ja" name="ft_validee"/>
+					<nls languageCode="pl" name="ft_validee"/>
+					<nls languageCode="da" name="ft_validee"/>
+					<nls languageCode="tr" name="ft_validee"/>
+					<nls languageCode="nl" name="ft_validee"/>
+					<nls languageCode="ca" name="ft_validee"/>
+				</column>
+				<column align="right" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="consomme" isEditable="false" position="16" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="consomme"/>
+					<nls languageCode="de" name="consomme"/>
+					<nls languageCode="sv" name="consomme"/>
+					<nls languageCode="ru" name="consomme"/>
+					<nls languageCode="fi" name="consomme"/>
+					<nls languageCode="pt" name="consomme"/>
+					<nls languageCode="ko" name="consomme"/>
+					<nls languageCode="en" name="consomme"/>
+					<nls languageCode="it" name="consomme"/>
+					<nls languageCode="fr" name="consomme"/>
+					<nls languageCode="hu" name="consomme"/>
+					<nls languageCode="zh" name="consomme"/>
+					<nls languageCode="es" name="consomme"/>
+					<nls languageCode="cs" name="consomme"/>
+					<nls languageCode="zh_TW" name="consomme"/>
+					<nls languageCode="ja" name="consomme"/>
+					<nls languageCode="pl" name="consomme"/>
+					<nls languageCode="da" name="consomme"/>
+					<nls languageCode="tr" name="consomme"/>
+					<nls languageCode="nl" name="consomme"/>
+					<nls languageCode="ca" name="consomme"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="am_pm" isEditable="false" position="17" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="no" name="am_pm"/>
+					<nls languageCode="de" name="am_pm"/>
+					<nls languageCode="sv" name="am_pm"/>
+					<nls languageCode="ru" name="am_pm"/>
+					<nls languageCode="fi" name="am_pm"/>
+					<nls languageCode="pt" name="am_pm"/>
+					<nls languageCode="ko" name="am_pm"/>
+					<nls languageCode="en" name="am_pm"/>
+					<nls languageCode="it" name="am_pm"/>
+					<nls languageCode="fr" name="am_pm"/>
+					<nls languageCode="hu" name="am_pm"/>
+					<nls languageCode="zh" name="am_pm"/>
+					<nls languageCode="es" name="am_pm"/>
+					<nls languageCode="cs" name="am_pm"/>
+					<nls languageCode="zh_TW" name="am_pm"/>
+					<nls languageCode="ja" name="am_pm"/>
+					<nls languageCode="pl" name="am_pm"/>
+					<nls languageCode="da" name="am_pm"/>
+					<nls languageCode="tr" name="am_pm"/>
+					<nls languageCode="nl" name="am_pm"/>
+					<nls languageCode="ca" name="am_pm"/>
+				</column>
+				<column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="unique_id" isEditable="false" position="-1" showHeaderLabel="true" showSeparator="true" type="label">
+					<nls languageCode="de" name="unique_id"/>
+					<nls languageCode="no" name="unique_id"/>
+					<nls languageCode="fi" name="unique_id"/>
+					<nls languageCode="ru" name="unique_id"/>
+					<nls languageCode="sv" name="unique_id"/>
+					<nls languageCode="ko" name="unique_id"/>
+					<nls languageCode="pt" name="unique_id"/>
+					<nls languageCode="en" name="unique_id"/>
+					<nls languageCode="it" name="unique_id"/>
+					<nls languageCode="fr" name="unique_id"/>
+					<nls languageCode="hu" name="unique_id"/>
+					<nls languageCode="es" name="unique_id"/>
+					<nls languageCode="zh" name="unique_id"/>
+					<nls languageCode="cs" name="unique_id"/>
+					<nls languageCode="zh_TW" name="unique_id"/>
+					<nls languageCode="ja" name="unique_id"/>
+					<nls languageCode="pl" name="unique_id"/>
+					<nls languageCode="da" name="unique_id"/>
+					<nls languageCode="ca" name="unique_id"/>
+					<nls languageCode="nl" name="unique_id"/>
+					<nls languageCode="tr" name="unique_id"/>
+				</column>
+				<OBSAssocs complete="false"/>
+				<Security/>
+				<filter code="CP_COP_EXTRACTCONSO" componentCode="odf" dataProviderId="CQ_COP_EXTRACTCONSO" dataProviderType="nsql" objectCode="CQ_COP_EXTRACTCONSO" partitionCode="NIKU.ROOT">
+					<section collapsed="true" currentState="collapsed" filterByExpression="false">
+						<nls languageCode="ca" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="cs" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="da" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="de" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="en" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="es" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="fi" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="fr" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="hu" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="it" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="ja" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="ko" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="nl" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="no" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="pl" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="pt" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="ru" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="sv" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="tr" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="zh" name="CP_COP_extractConso Filter"/>
+						<nls languageCode="zh_TW" name="CP_COP_extractConso Filter"/>
+					</section>
+					<defaultDisplay>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="am_pm" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="am_pm"/>
+							<nls languageCode="cs" name="am_pm"/>
+							<nls languageCode="da" name="am_pm"/>
+							<nls languageCode="de" name="am_pm"/>
+							<nls languageCode="en" name="am_pm"/>
+							<nls languageCode="es" name="am_pm"/>
+							<nls languageCode="fi" name="am_pm"/>
+							<nls languageCode="fr" name="am_pm"/>
+							<nls languageCode="hu" name="am_pm"/>
+							<nls languageCode="it" name="am_pm"/>
+							<nls languageCode="ja" name="am_pm"/>
+							<nls languageCode="ko" name="am_pm"/>
+							<nls languageCode="nl" name="am_pm"/>
+							<nls languageCode="no" name="am_pm"/>
+							<nls languageCode="pl" name="am_pm"/>
+							<nls languageCode="pt" name="am_pm"/>
+							<nls languageCode="ru" name="am_pm"/>
+							<nls languageCode="sv" name="am_pm"/>
+							<nls languageCode="tr" name="am_pm"/>
+							<nls languageCode="zh" name="am_pm"/>
+							<nls languageCode="zh_TW" name="am_pm"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="annee" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="annee"/>
+							<nls languageCode="cs" name="annee"/>
+							<nls languageCode="da" name="annee"/>
+							<nls languageCode="de" name="annee"/>
+							<nls languageCode="en" name="annee"/>
+							<nls languageCode="es" name="annee"/>
+							<nls languageCode="fi" name="annee"/>
+							<nls languageCode="fr" name="annee"/>
+							<nls languageCode="hu" name="annee"/>
+							<nls languageCode="it" name="annee"/>
+							<nls languageCode="ja" name="annee"/>
+							<nls languageCode="ko" name="annee"/>
+							<nls languageCode="nl" name="annee"/>
+							<nls languageCode="no" name="annee"/>
+							<nls languageCode="pl" name="annee"/>
+							<nls languageCode="pt" name="annee"/>
+							<nls languageCode="ru" name="annee"/>
+							<nls languageCode="sv" name="annee"/>
+							<nls languageCode="tr" name="annee"/>
+							<nls languageCode="zh" name="annee"/>
+							<nls languageCode="zh_TW" name="annee"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="code_projet" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="code_projet"/>
+							<nls languageCode="cs" name="code_projet"/>
+							<nls languageCode="da" name="code_projet"/>
+							<nls languageCode="de" name="code_projet"/>
+							<nls languageCode="en" name="code_projet"/>
+							<nls languageCode="es" name="code_projet"/>
+							<nls languageCode="fi" name="code_projet"/>
+							<nls languageCode="fr" name="code_projet"/>
+							<nls languageCode="hu" name="code_projet"/>
+							<nls languageCode="it" name="code_projet"/>
+							<nls languageCode="ja" name="code_projet"/>
+							<nls languageCode="ko" name="code_projet"/>
+							<nls languageCode="nl" name="code_projet"/>
+							<nls languageCode="no" name="code_projet"/>
+							<nls languageCode="pl" name="code_projet"/>
+							<nls languageCode="pt" name="code_projet"/>
+							<nls languageCode="ru" name="code_projet"/>
+							<nls languageCode="sv" name="code_projet"/>
+							<nls languageCode="tr" name="code_projet"/>
+							<nls languageCode="zh" name="code_projet"/>
+							<nls languageCode="zh_TW" name="code_projet"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="consomme" dataSize="30" decimals="0" extType="double" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="numeric">
+							<nls languageCode="ca" name="consomme"/>
+							<nls languageCode="cs" name="consomme"/>
+							<nls languageCode="da" name="consomme"/>
+							<nls languageCode="de" name="consomme"/>
+							<nls languageCode="en" name="consomme"/>
+							<nls languageCode="es" name="consomme"/>
+							<nls languageCode="fi" name="consomme"/>
+							<nls languageCode="fr" name="consomme"/>
+							<nls languageCode="hu" name="consomme"/>
+							<nls languageCode="it" name="consomme"/>
+							<nls languageCode="ja" name="consomme"/>
+							<nls languageCode="ko" name="consomme"/>
+							<nls languageCode="nl" name="consomme"/>
+							<nls languageCode="no" name="consomme"/>
+							<nls languageCode="pl" name="consomme"/>
+							<nls languageCode="pt" name="consomme"/>
+							<nls languageCode="ru" name="consomme"/>
+							<nls languageCode="sv" name="consomme"/>
+							<nls languageCode="tr" name="consomme"/>
+							<nls languageCode="zh" name="consomme"/>
+							<nls languageCode="zh_TW" name="consomme"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="date" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="date"/>
+							<nls languageCode="cs" name="date"/>
+							<nls languageCode="da" name="date"/>
+							<nls languageCode="de" name="date"/>
+							<nls languageCode="en" name="date"/>
+							<nls languageCode="es" name="date"/>
+							<nls languageCode="fi" name="date"/>
+							<nls languageCode="fr" name="date"/>
+							<nls languageCode="hu" name="date"/>
+							<nls languageCode="it" name="date"/>
+							<nls languageCode="ja" name="date"/>
+							<nls languageCode="ko" name="date"/>
+							<nls languageCode="nl" name="date"/>
+							<nls languageCode="no" name="date"/>
+							<nls languageCode="pl" name="date"/>
+							<nls languageCode="pt" name="date"/>
+							<nls languageCode="ru" name="date"/>
+							<nls languageCode="sv" name="date"/>
+							<nls languageCode="tr" name="date"/>
+							<nls languageCode="zh" name="date"/>
+							<nls languageCode="zh_TW" name="date"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="ft_validee" dataSize="30" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="ft_validee"/>
+							<nls languageCode="cs" name="ft_validee"/>
+							<nls languageCode="da" name="ft_validee"/>
+							<nls languageCode="de" name="ft_validee"/>
+							<nls languageCode="en" name="ft_validee"/>
+							<nls languageCode="es" name="ft_validee"/>
+							<nls languageCode="fi" name="ft_validee"/>
+							<nls languageCode="fr" name="ft_validee"/>
+							<nls languageCode="hu" name="ft_validee"/>
+							<nls languageCode="it" name="ft_validee"/>
+							<nls languageCode="ja" name="ft_validee"/>
+							<nls languageCode="ko" name="ft_validee"/>
+							<nls languageCode="nl" name="ft_validee"/>
+							<nls languageCode="no" name="ft_validee"/>
+							<nls languageCode="pl" name="ft_validee"/>
+							<nls languageCode="pt" name="ft_validee"/>
+							<nls languageCode="ru" name="ft_validee"/>
+							<nls languageCode="sv" name="ft_validee"/>
+							<nls languageCode="tr" name="ft_validee"/>
+							<nls languageCode="zh" name="ft_validee"/>
+							<nls languageCode="zh_TW" name="ft_validee"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="id" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="id"/>
+							<nls languageCode="cs" name="id"/>
+							<nls languageCode="da" name="id"/>
+							<nls languageCode="de" name="id"/>
+							<nls languageCode="en" name="id"/>
+							<nls languageCode="es" name="id"/>
+							<nls languageCode="fi" name="id"/>
+							<nls languageCode="fr" name="id"/>
+							<nls languageCode="hu" name="id"/>
+							<nls languageCode="it" name="id"/>
+							<nls languageCode="ja" name="id"/>
+							<nls languageCode="ko" name="id"/>
+							<nls languageCode="nl" name="id"/>
+							<nls languageCode="no" name="id"/>
+							<nls languageCode="pl" name="id"/>
+							<nls languageCode="pt" name="id"/>
+							<nls languageCode="ru" name="id"/>
+							<nls languageCode="sv" name="id"/>
+							<nls languageCode="tr" name="id"/>
+							<nls languageCode="zh" name="id"/>
+							<nls languageCode="zh_TW" name="id"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="intitule_tache" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="intitule_tache"/>
+							<nls languageCode="cs" name="intitule_tache"/>
+							<nls languageCode="da" name="intitule_tache"/>
+							<nls languageCode="de" name="intitule_tache"/>
+							<nls languageCode="en" name="intitule_tache"/>
+							<nls languageCode="es" name="intitule_tache"/>
+							<nls languageCode="fi" name="intitule_tache"/>
+							<nls languageCode="fr" name="intitule_tache"/>
+							<nls languageCode="hu" name="intitule_tache"/>
+							<nls languageCode="it" name="intitule_tache"/>
+							<nls languageCode="ja" name="intitule_tache"/>
+							<nls languageCode="ko" name="intitule_tache"/>
+							<nls languageCode="nl" name="intitule_tache"/>
+							<nls languageCode="no" name="intitule_tache"/>
+							<nls languageCode="pl" name="intitule_tache"/>
+							<nls languageCode="pt" name="intitule_tache"/>
+							<nls languageCode="ru" name="intitule_tache"/>
+							<nls languageCode="sv" name="intitule_tache"/>
+							<nls languageCode="tr" name="intitule_tache"/>
+							<nls languageCode="zh" name="intitule_tache"/>
+							<nls languageCode="zh_TW" name="intitule_tache"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="jour" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="jour"/>
+							<nls languageCode="cs" name="jour"/>
+							<nls languageCode="da" name="jour"/>
+							<nls languageCode="de" name="jour"/>
+							<nls languageCode="en" name="jour"/>
+							<nls languageCode="es" name="jour"/>
+							<nls languageCode="fi" name="jour"/>
+							<nls languageCode="fr" name="jour"/>
+							<nls languageCode="hu" name="jour"/>
+							<nls languageCode="it" name="jour"/>
+							<nls languageCode="ja" name="jour"/>
+							<nls languageCode="ko" name="jour"/>
+							<nls languageCode="nl" name="jour"/>
+							<nls languageCode="no" name="jour"/>
+							<nls languageCode="pl" name="jour"/>
+							<nls languageCode="pt" name="jour"/>
+							<nls languageCode="ru" name="jour"/>
+							<nls languageCode="sv" name="jour"/>
+							<nls languageCode="tr" name="jour"/>
+							<nls languageCode="zh" name="jour"/>
+							<nls languageCode="zh_TW" name="jour"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="login_pcs" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="login_pcs"/>
+							<nls languageCode="cs" name="login_pcs"/>
+							<nls languageCode="da" name="login_pcs"/>
+							<nls languageCode="de" name="login_pcs"/>
+							<nls languageCode="en" name="login_pcs"/>
+							<nls languageCode="es" name="login_pcs"/>
+							<nls languageCode="fi" name="login_pcs"/>
+							<nls languageCode="fr" name="login_pcs"/>
+							<nls languageCode="hu" name="login_pcs"/>
+							<nls languageCode="it" name="login_pcs"/>
+							<nls languageCode="ja" name="login_pcs"/>
+							<nls languageCode="ko" name="login_pcs"/>
+							<nls languageCode="nl" name="login_pcs"/>
+							<nls languageCode="no" name="login_pcs"/>
+							<nls languageCode="pl" name="login_pcs"/>
+							<nls languageCode="pt" name="login_pcs"/>
+							<nls languageCode="ru" name="login_pcs"/>
+							<nls languageCode="sv" name="login_pcs"/>
+							<nls languageCode="tr" name="login_pcs"/>
+							<nls languageCode="zh" name="login_pcs"/>
+							<nls languageCode="zh_TW" name="login_pcs"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="mois" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="mois"/>
+							<nls languageCode="cs" name="mois"/>
+							<nls languageCode="da" name="mois"/>
+							<nls languageCode="de" name="mois"/>
+							<nls languageCode="en" name="mois"/>
+							<nls languageCode="es" name="mois"/>
+							<nls languageCode="fi" name="mois"/>
+							<nls languageCode="fr" name="mois"/>
+							<nls languageCode="hu" name="mois"/>
+							<nls languageCode="it" name="mois"/>
+							<nls languageCode="ja" name="mois"/>
+							<nls languageCode="ko" name="mois"/>
+							<nls languageCode="nl" name="mois"/>
+							<nls languageCode="no" name="mois"/>
+							<nls languageCode="pl" name="mois"/>
+							<nls languageCode="pt" name="mois"/>
+							<nls languageCode="ru" name="mois"/>
+							<nls languageCode="sv" name="mois"/>
+							<nls languageCode="tr" name="mois"/>
+							<nls languageCode="zh" name="mois"/>
+							<nls languageCode="zh_TW" name="mois"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="nom" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="nom"/>
+							<nls languageCode="cs" name="nom"/>
+							<nls languageCode="da" name="nom"/>
+							<nls languageCode="de" name="nom"/>
+							<nls languageCode="en" name="nom"/>
+							<nls languageCode="es" name="nom"/>
+							<nls languageCode="fi" name="nom"/>
+							<nls languageCode="fr" name="nom"/>
+							<nls languageCode="hu" name="nom"/>
+							<nls languageCode="it" name="nom"/>
+							<nls languageCode="ja" name="nom"/>
+							<nls languageCode="ko" name="nom"/>
+							<nls languageCode="nl" name="nom"/>
+							<nls languageCode="no" name="nom"/>
+							<nls languageCode="pl" name="nom"/>
+							<nls languageCode="pt" name="nom"/>
+							<nls languageCode="ru" name="nom"/>
+							<nls languageCode="sv" name="nom"/>
+							<nls languageCode="tr" name="nom"/>
+							<nls languageCode="zh" name="nom"/>
+							<nls languageCode="zh_TW" name="nom"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="prenom" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="prenom"/>
+							<nls languageCode="cs" name="prenom"/>
+							<nls languageCode="da" name="prenom"/>
+							<nls languageCode="de" name="prenom"/>
+							<nls languageCode="en" name="prenom"/>
+							<nls languageCode="es" name="prenom"/>
+							<nls languageCode="fi" name="prenom"/>
+							<nls languageCode="fr" name="prenom"/>
+							<nls languageCode="hu" name="prenom"/>
+							<nls languageCode="it" name="prenom"/>
+							<nls languageCode="ja" name="prenom"/>
+							<nls languageCode="ko" name="prenom"/>
+							<nls languageCode="nl" name="prenom"/>
+							<nls languageCode="no" name="prenom"/>
+							<nls languageCode="pl" name="prenom"/>
+							<nls languageCode="pt" name="prenom"/>
+							<nls languageCode="ru" name="prenom"/>
+							<nls languageCode="sv" name="prenom"/>
+							<nls languageCode="tr" name="prenom"/>
+							<nls languageCode="zh" name="prenom"/>
+							<nls languageCode="zh_TW" name="prenom"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="reference_analytique" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="reference_analytique"/>
+							<nls languageCode="cs" name="reference_analytique"/>
+							<nls languageCode="da" name="reference_analytique"/>
+							<nls languageCode="de" name="reference_analytique"/>
+							<nls languageCode="en" name="reference_analytique"/>
+							<nls languageCode="es" name="reference_analytique"/>
+							<nls languageCode="fi" name="reference_analytique"/>
+							<nls languageCode="fr" name="reference_analytique"/>
+							<nls languageCode="hu" name="reference_analytique"/>
+							<nls languageCode="it" name="reference_analytique"/>
+							<nls languageCode="ja" name="reference_analytique"/>
+							<nls languageCode="ko" name="reference_analytique"/>
+							<nls languageCode="nl" name="reference_analytique"/>
+							<nls languageCode="no" name="reference_analytique"/>
+							<nls languageCode="pl" name="reference_analytique"/>
+							<nls languageCode="pt" name="reference_analytique"/>
+							<nls languageCode="ru" name="reference_analytique"/>
+							<nls languageCode="sv" name="reference_analytique"/>
+							<nls languageCode="tr" name="reference_analytique"/>
+							<nls languageCode="zh" name="reference_analytique"/>
+							<nls languageCode="zh_TW" name="reference_analytique"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="team" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="team"/>
+							<nls languageCode="cs" name="team"/>
+							<nls languageCode="da" name="team"/>
+							<nls languageCode="de" name="team"/>
+							<nls languageCode="en" name="team"/>
+							<nls languageCode="es" name="team"/>
+							<nls languageCode="fi" name="team"/>
+							<nls languageCode="fr" name="team"/>
+							<nls languageCode="hu" name="team"/>
+							<nls languageCode="it" name="team"/>
+							<nls languageCode="ja" name="team"/>
+							<nls languageCode="ko" name="team"/>
+							<nls languageCode="nl" name="team"/>
+							<nls languageCode="no" name="team"/>
+							<nls languageCode="pl" name="team"/>
+							<nls languageCode="pt" name="team"/>
+							<nls languageCode="ru" name="team"/>
+							<nls languageCode="sv" name="team"/>
+							<nls languageCode="tr" name="team"/>
+							<nls languageCode="zh" name="team"/>
+							<nls languageCode="zh_TW" name="team"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="type_contrat" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="type_contrat"/>
+							<nls languageCode="cs" name="type_contrat"/>
+							<nls languageCode="da" name="type_contrat"/>
+							<nls languageCode="de" name="type_contrat"/>
+							<nls languageCode="en" name="type_contrat"/>
+							<nls languageCode="es" name="type_contrat"/>
+							<nls languageCode="fi" name="type_contrat"/>
+							<nls languageCode="fr" name="type_contrat"/>
+							<nls languageCode="hu" name="type_contrat"/>
+							<nls languageCode="it" name="type_contrat"/>
+							<nls languageCode="ja" name="type_contrat"/>
+							<nls languageCode="ko" name="type_contrat"/>
+							<nls languageCode="nl" name="type_contrat"/>
+							<nls languageCode="no" name="type_contrat"/>
+							<nls languageCode="pl" name="type_contrat"/>
+							<nls languageCode="pt" name="type_contrat"/>
+							<nls languageCode="ru" name="type_contrat"/>
+							<nls languageCode="sv" name="type_contrat"/>
+							<nls languageCode="tr" name="type_contrat"/>
+							<nls languageCode="zh" name="type_contrat"/>
+							<nls languageCode="zh_TW" name="type_contrat"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="unique_id" dataSize="200" decimals="0" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="text" width="30">
+							<nls languageCode="ca" name="unique_id"/>
+							<nls languageCode="cs" name="unique_id"/>
+							<nls languageCode="da" name="unique_id"/>
+							<nls languageCode="de" name="unique_id"/>
+							<nls languageCode="en" name="unique_id"/>
+							<nls languageCode="es" name="unique_id"/>
+							<nls languageCode="fi" name="unique_id"/>
+							<nls languageCode="fr" name="unique_id"/>
+							<nls languageCode="hu" name="unique_id"/>
+							<nls languageCode="it" name="unique_id"/>
+							<nls languageCode="ja" name="unique_id"/>
+							<nls languageCode="ko" name="unique_id"/>
+							<nls languageCode="nl" name="unique_id"/>
+							<nls languageCode="no" name="unique_id"/>
+							<nls languageCode="pl" name="unique_id"/>
+							<nls languageCode="pt" name="unique_id"/>
+							<nls languageCode="ru" name="unique_id"/>
+							<nls languageCode="sv" name="unique_id"/>
+							<nls languageCode="tr" name="unique_id"/>
+							<nls languageCode="zh" name="unique_id"/>
+							<nls languageCode="zh_TW" name="unique_id"/>
+						</viewFieldDescriptor>
+						<viewFieldDescriptor active="true" aggregate="false" attributeCode="phase" dataSize="200" decimals="2" fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false" virtual="false" widgetType="textarea" width="200">
+							<nls languageCode="ca" name="phase"/>
+							<nls languageCode="cs" name="phase"/>
+							<nls languageCode="da" name="phase"/>
+							<nls languageCode="de" name="phase"/>
+							<nls languageCode="en" name="phase"/>
+							<nls languageCode="es" name="phase"/>
+							<nls languageCode="fi" name="phase"/>
+							<nls languageCode="fr" name="phase"/>
+							<nls languageCode="hu" name="phase"/>
+							<nls languageCode="it" name="phase"/>
+							<nls languageCode="ja" name="phase"/>
+							<nls languageCode="ko" name="phase"/>
+							<nls languageCode="nl" name="phase"/>
+							<nls languageCode="no" name="phase"/>
+							<nls languageCode="pl" name="phase"/>
+							<nls languageCode="pt" name="phase"/>
+							<nls languageCode="ru" name="phase"/>
+							<nls languageCode="sv" name="phase"/>
+							<nls languageCode="tr" name="phase"/>
+							<nls languageCode="zh" name="phase"/>
+							<nls languageCode="zh_TW" name="phase"/>
+						</viewFieldDescriptor>
+					</defaultDisplay>
+				</filter>
+			</gridPortlet>
+		</portlets>
+		<queries update="true">
+			<query category="businessIntelligence" code="CQ_COP_EXTRACTCONSO" isUserPortletAvailable="1" source="customer">
+				<nls description="V110" languageCode="ca" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="cs" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="da" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="de" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="en" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="es" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="fi" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="fr" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="hu" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="it" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="ja" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="ko" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="nl" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="no" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="pl" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="pt" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="ru" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="sv" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="tr" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="zh" name="CQ_COP_extractConso"/>
+				<nls description="V110" languageCode="zh_TW" name="CQ_COP_extractConso"/>
+				<nsql dbId="Niku" dbVendor="all"><![CDATA[SELECT 
+	@SELECT:DIM:USER_DEF:IMPLIED:L:A.UNIQUE_ID:UNIQUE_ID@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.ID:ID@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.LOGIN_PCS:LOGIN_PCS@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.NOM:NOM@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.PRENOM:PRENOM@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.TYPE_CONTRAT:TYPE_CONTRAT@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.TEAM:TEAM@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.REFERENCE_ANALYTIQUE:REFERENCE_ANALYTIQUE@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.CODE_PROJET:CODE_PROJET@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.PHASE:PHASE@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.INTITULE_TACHE:INTITULE_TACHE@,	
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.G_DATE:DATE@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.ANNEE:ANNEE@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.MOIS:MOIS@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.JOUR:JOUR@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.FT_VALIDEE:FT_VALIDEE@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.CONSOMME:CONSOMME@,
+	@SELECT:DIM_PROP:USER_DEF:IMPLIED:L:A.AM_PM:AM_PM@
+FROM
+(
+SELECT
+	md5(R.UNIQUE_NAME || TO_CHAR(REF_ACT.REF_DATE, 'DD_MM_YYYY') || TO_CHAR(REF_ACT.AS_ID)) UNIQUE_ID,
+	
+	R.UNIQUE_NAME AS ID,
+	R.pcs_id_pcs AS LOGIN_PCS,
+	R.LAST_NAME AS NOM,
+	R.FIRST_NAME AS PRENOM,	
+	type_contrat.description TYPE_CONTRAT,
+	REF_OBS.OBS_TEAM_NAME TEAM,
+	REF_OBS.OBS_TEAM_CODE REFERENCE_ANALYTIQUE,
+	CASE
+		WHEN REF_ACT.AS_ID < 0 THEN 'ABSENCE'
+		ELSE REF_PRJ.PRJ_CODE
+	END CODE_PROJET,
+
+	CASE
+		WHEN REF_ACT.AS_ID < 0 THEN 'Absence'
+		ELSE REF_PRJ.PHASE_NAME
+	END PHASE,
+
+	CASE
+		WHEN REF_ACT.AS_ID < 0 THEN 'Absence'
+		ELSE REF_PRJ.TASK_NAME
+	END INTITULE_TACHE,	
+	
+	TO_CHAR(REF_ACT.REF_DATE, 'DD/MM/YYYY') G_DATE,
+	TO_CHAR(REF_ACT.REF_DATE, 'YYYY') ANNEE,
+	TO_CHAR(REF_ACT.REF_DATE, 'MM') MOIS,
+	TO_CHAR(REF_ACT.REF_DATE, 'DD') JOUR,
+
+	2 AS FT_VALIDEE,
+
+	REF_ACT.ACT / 8 CONSOMME,
+
+	CASE
+		WHEN REF_ACT.AS_ID = -1 THEN 'AM'
+		WHEN REF_ACT.AS_ID = -2 THEN 'PM'
+		WHEN REF_ACT.AS_ID = -3 THEN 'AM_PM'
+		ELSE ''
+	END AM_PM
+FROM
+  PRTimeSheet TS
+	inner join ODF_RESOURCE_V2 R on (R.ODF_PK = TS.prResourceID)
+
+		left join cmn_lookups_v type_contrat on type_contrat.lookup_type = 'SRM_RESOURCE_TYPE' and type_contrat.ID = R.PERSON_TYPE and type_contrat.language_code = 'fr'
+
+		left join (
+			SELECT
+				OA.RECORD_ID UNIT_ID,
+				OBS_Team.OU_NAME OBS_TEAM_NAME,
+				substring(OBS_Team.CODE from 3) OBS_TEAM_CODE
+			FROM 
+				PRJ_OBS_ASSOCIATIONS OA 
+					inner join PRJ_OBS_UNITS OU on (OA.UNIT_ID = OU.ID)
+						inner join prj_obs_types OT on (OU.type_id = OT.ID AND OT.unique_name = 'Organisation')
+								
+							left join (
+								SELECT 	OBF.unit_id UNIT_ID, OU.unique_name CODE, OU.name OU_NAME
+								FROM 
+									prj_obs_units_flat OBF 
+										inner join  prj_obs_units OU  on (OU.id = OBF.branch_unit_id and OU.DEPTH = 4)
+								) OBS_Team ON (OU.ID = OBS_Team.UNIT_ID )	
+			WHERE
+				OA.TABLE_NAME = 'SRM_RESOURCES'
+			) REF_OBS ON (R.ODF_PK = REF_OBS.UNIT_ID)		
+
+	inner join PRTimePeriod TP on (TP.prID = TS.prTimePeriodID)
+
+	inner join
+	(
+		SELECT 
+				D.TS_ID,
+				D.REF_DATE,
+				CASE
+					WHEN (D.T_AM > 0) and (D.T_PM > 0) THEN 8
+					WHEN (D.T_AM = 0) and (D.T_PM = 0) THEN 0
+					ELSE 4
+				END ACT,
+				CASE
+					WHEN (D.T_AM > 0) and (D.T_PM > 0) THEN -3
+					WHEN (D.T_AM > 0) THEN -1
+					WHEN (D.T_PM > 0) THEN -2
+					ELSE 0
+				END AS_ID
+			FROM
+			(
+				SELECT
+					TS.prID 			TS_ID,
+					DT.START_DATE  		REF_DATE,
+					NK_SUM_FCT(ODA.odf_nk_ctv_abs,DT.START_DATE, DT.FINISH_DATE) T_AM,
+        			NK_SUM_FCT(ODP.odf_nk_ctv_abs,DT.START_DATE, DT.FINISH_DATE) T_PM
+				FROM
+					PRTimeSheet TS	
+						
+						LEFT JOIN odf_ca_co_absences ODA on (ODA.ODF_PARENT_ID = TS.prResourceID AND ODA.CODE='AM')
+        				LEFT JOIN odf_ca_co_absences ODP on (ODP.ODF_PARENT_ID = TS.prResourceID AND ODP.CODE='PM')
+												
+						INNER JOIN PRTimePeriod TP ON (Tp.prID =  TS.prTimePeriodID)
+						CROSS JOIN unnest(PFM_DEFAULT_CALENDAR_FCT( Tp.prStart, 'DAY', CAST(Tp.prFinish AS DATE) - CAST(Tp.prStart AS DATE) )) DT
+
+			) D
+		WHERE
+			D.T_AM > 0 
+		OR  D.T_PM > 0			
+
+		UNION ALL
+
+		SELECT
+			TE.PRTimeSheetID 	TS_ID,
+			SL.SLICE_DATE  		REF_DATE,
+			SL.SLICE AS 		ACT,
+			TE.PRAssignmentID 	AS_ID
+		FROM
+			PRTimeEntry TE 
+				INNER JOIN 	PRJ_BLB_SLICES SL on (SL.PRJ_OBJECT_ID =  TE.prID)
+					INNER JOIN PRJ_BLB_SLICEREQUESTS SLR on (SLR.ID = SL.SLICE_REQUEST_ID)
+
+				INNER JOIN PRAssignment A on (A.prID = TE.prAssignmentID)
+					INNER JOIN PRTask T on (T.prID = A.prTaskID)
+						INNER JOIN INV_INVESTMENTS I on (I.ID = T.prProjectID)
+		WHERE
+			SLR.REQUEST_NAME = 'TS_EXTRACTION'
+		AND I.IS_ACTIVE = 1
+
+	) REF_ACT on (REF_ACT.TS_ID = TS.prID)
+
+	LEFT JOIN (
+		SELECT
+			A.prID AS_ID,
+			I.CODE PRJ_CODE,
+			T.prNAME TASK_NAME,
+			TP.prNAME PHASE_NAME			
+		FROM
+			PRAssignment A
+				INNER JOIN PRTask T on (A.prTaskID = T.prID)
+					INNER JOIN INV_INVESTMENTS I on (I.ID = T.prProjectID)
+
+		INNER JOIN 
+			(
+				SELECT
+					TR.prID reftask_ID,
+					MAX(T.prWBSSequence) WSSeq
+				FROM
+					PRTask T
+						INNER JOIN PRTask TR ON (T.prProjectID = TR.prProjectID AND T.prWBSSequence <= TR.prWBSSequence)
+				WHERE T.prWBSLevel = 1
+				GROUP BY TR.prID 
+			)  PTask ON (Ptask.reftask_ID = T.prID)
+			
+			INNER JOIN 
+				PRTask TP ON (TP.prProjectID = T.prProjectID AND TP.prWBSSequence = PTask.WSSeq)
+
+		WHERE
+			I.IS_ACTIVE = 1
+				
+	) REF_PRJ ON (REF_ACT.AS_ID = REF_PRJ.AS_ID)
+WHERE
+	TS.prStatus > 2 and TS.prStatus < 5	
+) A
+WHERE
+@FILTER@]]></nsql>
+				<attribute id="phase" required="false"/>
+				<attribute id="am_pm" required="false"/>
+				<attribute id="consomme" required="false"/>
+				<attribute id="ft_validee" required="false"/>
+				<attribute id="jour" required="false"/>
+				<attribute id="mois" required="false"/>
+				<attribute id="annee" required="false"/>
+				<attribute id="date" required="false"/>
+				<attribute id="intitule_tache" required="false"/>
+				<attribute id="code_projet" required="false"/>
+				<attribute id="reference_analytique" required="false"/>
+				<attribute id="team" required="false"/>
+				<attribute id="type_contrat" required="false"/>
+				<attribute id="prenom" required="false"/>
+				<attribute id="nom" required="false"/>
+				<attribute id="login_pcs" required="false"/>
+				<attribute id="id" required="false"/>
+				<attribute id="unique_id" required="false"/>
+			</query>
+		</queries>
+	</contentPack>
+</NikuDataBus>
