@@ -1,0 +1,38 @@
+{
+    "NomCarte"          : "Le début",
+    "ViperCampCode"     : "1",
+    "PouleCampCode"     : "2",
+    "RenardCampCode"    : "3",
+    "Carte"   : [
+            "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+            "Z                    111111111         Z",
+            "Z                     1111111          Z",
+            "Z                      11111           Z",
+            "Z                       111            Z",
+            "Z                        1             Z",
+            "Z                                      Z",
+            "Z                                      Z",
+            "Z                                      Z",
+            "Z                                      Z",
+            "Z3                                     Z",
+            "Z33                                    Z",
+            "Z333                                   Z",
+            "Z3333                                  Z",
+            "Z33333                                 Z",
+            "Z3333                                  Z",
+            "Z333                                   Z",
+            "Z33                                    Z",
+            "Z3                                     Z",
+            "Z                                      Z",
+            "Z                                      Z",
+            "Z                                      Z",
+            "Z                            2         Z",
+            "Z                           222        Z",
+            "Z                          22222       Z",
+            "Z                         2222222      Z",
+            "Z                        222222222     Z",
+            "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+    ]
+
+
+}
