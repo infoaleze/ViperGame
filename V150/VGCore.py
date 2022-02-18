@@ -145,7 +145,55 @@ class VMap:
         else:
             return(None)
 
+    def getCode(self,x,y):
+        """
+        Retourne le code de la case x,y après vérification
+        si Erreur => None
+        """
 
+        if (x>=0 and y>=0 and y<self.LY and x<self.LX):
+
+            return self.Carte[y*self.LX + x]
+
+        else:
+            return None
+
+
+    def checkMoveTo(self, Player, pX, pY):
+        """
+        Cette fonction vérifie que le joueur peut se déplacer
+        dans cette case (pX, pY)
+        """
+
+        # Vérifie que la position est pas hors limite
+        if (pX < 0) or (pX >= self.LX) or (pY < 0) or (pY >=  self.LY):
+            return False
+
+        # Vérifie que la case n'est pas occuper par un mur
+        code = self.getCode(pX,pY)
+
+        if code == 0xFF:
+            return False
+
+        if code == 0x01:
+            if (Player.typePlayer == 'V' or Player.typePlayer == 'R'):
+                return True
+            else:
+                return False
+
+        if code == 0x02:
+            if (Player.typePlayer == 'R' or Player.typePlayer == 'P'):
+                return True
+            else:
+                return False
+
+        if code == 0x03:
+            if (Player.typePlayer == 'P' or Player.typePlayer == 'V'):
+                return True
+            else:
+                return False
+
+        return True
 
 
 class VPlayer:
@@ -162,6 +210,9 @@ class VPlayer:
 
         self.score = 0
         self.playerName = None
+
+        # Direction du player
+        self.dir = 'X'
 
         # Indique si le joueur, est le joueur du Client
         # celui qui joue via cette instance de programme
@@ -190,6 +241,19 @@ class VPlayer:
         """
         self.x += dx
         self.y += dy
+
+        if (dx == 0) :
+            if dy > 0:
+                self.dir = 'S'
+            else:
+                self.dir = 'N'
+        else:
+            if dx > 0:
+                self.dir = 'E'
+            else:
+                self.dir = 'O'
+
+
         return True
 
     def moveTo(self, px, py):
@@ -197,6 +261,18 @@ class VPlayer:
         Met à jour les coordonnées de manière absolue
         Si pas possible retourne false
         """
+
+        if (self.x == px) :
+            if self.y < py:
+                self.dir = 'S'
+            else:
+                self.dir = 'N'
+        else:
+            if self.x < px:
+                self.dir = 'E'
+            else:
+                self.dir = 'O'
+
         self.x = px
         self.y = py
         return True
@@ -306,3 +382,44 @@ class EntityList:
 
         return None
 
+
+    def findPlayerVertical(self, px, py):
+        """
+        Cette fonction va rechercher un/les joueurs sont contenus
+        dans une ligne Vertical de 3 case centrée en px, py
+        """
+
+        ret = []
+
+        ## ****************************
+        ##     TO DO
+        ## ****************************
+
+        if len(ret) == 0:
+            return None
+
+        return(ret)
+
+
+    def findPlayerHorizontal(self, px, py):
+        """
+        Cette fonction va rechercher un/des joueurs sont contenus
+        dans une ligne Horizont de 3 case centrée en px, py
+        """
+
+        ret = []
+
+        for p in self.PlayerList:
+            # test si le player est sur la ligne py
+            if p.y != py:
+                continue
+            # Le playeur est sur la bonne ligne
+            # test si le joueur est dans une des trois
+            # cases
+            if (p.x <= px+1) and (p.x>= px-1):
+                ret.append(p)
+
+        if len(ret) == 0:
+            return None
+
+        return(ret)

@@ -1,4 +1,5 @@
 from lib2to3.pgen2.token import LPAR
+from sys import api_version
 import pygame
 
 import VGCore
@@ -440,9 +441,12 @@ class GfxEngine():
         self.LPName = Pname
         self.LPType = Ptype
 
-        # -------------------------------
-        # -- A Compléter
-        # -------------------------------
+        # Déclaration du nouveau joueurs
+        LVGNetLib.Send('N:'+Pname)
+        # Récupère la liste des joueurs
+        LVGNetLib.Send('L:')
+        self.receptionMessage()
+
 
 
     # ============================ [ Helper Fonctions ]==============================
@@ -525,18 +529,63 @@ class GfxEngine():
     # ========================[ Déplacement Joueur]==================================
     def playerMoveX(self,dx):
 
-        pass 
-        # -------------------------------
-        # -- A Compléter
-        # -------------------------------
+        p = self.playerList.getLocalPlayer()
+        if p and self._Map._Map.checkMoveTo(p, p.x +dx, p.y):
+            LVGNetLib.Send('X:'+str(dx))
 
 
     def playerMoveY(self,dy):
 
-        pass
-        # -------------------------------
-        # -- A Compléter
-        # -------------------------------
+        p = self.playerList.getLocalPlayer()
+        if p and self._Map._Map.checkMoveTo(p, p.x, p.y + dy):
+            LVGNetLib.Send('Y:'+str(dy))
+
+
+    # ======================[ Action du joueur local ]===============================
+    def playerCatch(self):
+
+        print("playerCatch")
+
+        p = self.playerList.getLocalPlayer()
+
+        pList = None
+
+        if (p.dir == 'N') and (p.y > 0):
+            pList = self.playerList.findPlayerHorizontal(p.x, p.y-1)
+        elif (p.dir == 'S') and (p.y < self._Map._Map.LY-1):
+            pList = self.playerList.findPlayerHorizontal(p.x, p.y+1)
+        elif (p.dir == 'E') and (p.x < self._Map._Map.LX-1):
+            pList = self.playerList.findPlayerVertical(p.x+1, p.y)
+        elif (p.dir == 'O') and (p.x > 0):
+            pList = self.playerList.findPlayerVertical(p.x-1, p.y)
+
+        # Determination de qui attrappe qui
+        if p.typePlayer == 'P':
+            fType = 'V'
+        elif p.typePlayer == 'R':
+            fType = 'P'
+        elif p.typePlayer == 'V':
+            fType = 'R'
+
+        thePlayer = None
+
+        if pList:
+            # Recherche du premier player valable
+            for ap in pList:
+                if ap._isLocal:
+                    continue
+                if ap.typePlayer == fType:
+                    thePlayer = ap
+                    break
+
+        if thePlayer:
+            print("Joueur %s attrappé"%(thePlayer.playerName))
+        else:
+            print("aucun joueur attrappé")
+
+
+
+
 
     # ==================================[ Gfx Fonction ]=============================
 
@@ -579,16 +628,23 @@ class GfxEngine():
             if event.type == pygame.QUIT:
                 return(False)
 
-            key = pygame.key.get_pressed()
+            if event.type == pygame.KEYDOWN:
 
-            if key[pygame.K_LEFT]:
-                self.playerMoveX(-1)
-            if key[pygame.K_RIGHT]:
-                self.playerMoveX(1)
-            if key[pygame.K_UP]:
-                self.playerMoveY(-1)
-            if key[pygame.K_DOWN]:
-                self.playerMoveY(1)
+                if event.key == pygame.K_LEFT:
+                    self.playerMoveX(-1)
+                    continue
+                elif event.key == pygame.K_RIGHT:
+                    self.playerMoveX(1)
+                    continue
+                elif event.key == pygame.K_UP:
+                    self.playerMoveY(-1)
+                    continue
+                elif event.key == pygame.K_DOWN:
+                    self.playerMoveY(1)
+                    continue
+                elif event.key == pygame.K_LCTRL:
+                    self.playerCatch()
+                    continue
 
         # Mise à jour de l'écran
         pygame.display.update()

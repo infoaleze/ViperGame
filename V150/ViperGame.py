@@ -34,7 +34,7 @@ VGNetLib.Connect(ServeurIP)
 
 
 # Initialisation du joueur Local
-myGfx.initialise('Yoann', 'V')
+myGfx.initialise('Toto', 'P')
 
 
 # ==========================================================================
