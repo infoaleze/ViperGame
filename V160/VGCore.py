@@ -223,11 +223,11 @@ class VPlayer:
         self.y = -1
 
         # Etat du joueur
-        # ??
+        self.isDirty =  True
 
         # Statut du joueur
-        # ??
-
+        self.playerState = 'N'
+        self.idPlayerAttrape = -1
 
 
     def setTypePlayer(self, TPlayer):
@@ -242,8 +242,16 @@ class VPlayer:
 
     def testPlayerStatus(self,Statut):
 
-        pass
-        # ????????????????
+        if Statut not in ['N','C','A']:
+            return False
+
+        if Statut == 'N':
+            return True
+
+        if Statut == 'A' and self.playerState == 'N':
+            return True
+
+        return False
 
 
 
@@ -263,8 +271,12 @@ class VPlayer:
         Fonction qui mémorise le joueur qui vient d'être attrapé
         """
 
-        pass
-        # ????????????????
+        if self.playerState == 'N':
+            self.idPlayerAttrape = playerID
+            self.playerState = 'C'
+            return True
+
+        return False
 
 
 
@@ -439,6 +451,14 @@ class EntityList:
         ## ****************************
         ##     TO DO
         ## ****************************
+
+        for p in self.PlayerList:
+            if p.x != px:  # ! =
+                continue
+
+            # le joueur est sur la bonne colonne  # > =    < =
+            if (p.y <= py+1) and (p.y >= py-1):
+                ret.append(p)
 
         if len(ret) == 0:
             return None

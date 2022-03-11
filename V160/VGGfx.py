@@ -230,10 +230,11 @@ class GfxPlayer(VGCore.VPlayer):
         """
 
         # Vérifie que le player n'est pas dans un état invisible
-        # ??????????????
-        # ??????????????
-        # ??????????????
-        # ??????????????
+        if self.playerState == 'A':
+            return
+
+        if self.isGfxDirty:
+            self.setImage()
 
         if myMap.isVisible(self.x, self.y):
 
@@ -582,15 +583,18 @@ class GfxEngine():
     def playerMoveX(self,dx):
 
         p = self.playerList.getLocalPlayer()
-        if p and self._Map._Map.checkMoveTo(p, p.x +dx, p.y):  # MAJ
+        if p and not(p.isDirty) and self._Map._Map.checkMoveTo(p, p.x +dx, p.y):  # MAJ
             LVGNetLib.Send('X:'+str(dx))
+            p.isDirty = True
 
 
     def playerMoveY(self,dy):
 
         p = self.playerList.getLocalPlayer()
-        if p  and self._Map._Map.checkMoveTo(p, p.x, p.y + dy): # MAJ
+        if p and not(p.isDirty) and self._Map._Map.checkMoveTo(p, p.x, p.y + dy): # MAJ
             LVGNetLib.Send('Y:'+str(dy))
+            p.isDirty = True
+
 
 
     # ======================[ Action du joueur local ]===============================
@@ -600,7 +604,8 @@ class GfxEngine():
 
         p = self.playerList.getLocalPlayer()
 
-         # MAJ ======================================================
+        if (p == None) or p.isDirty: # MAJ ======================================================
+            return None
 
         pList = None
 
